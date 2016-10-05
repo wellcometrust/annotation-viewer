@@ -1,0 +1,27 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Wellcome — Bedlam</title>
+    <meta name="description" content="">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="player" style="position: fixed; top:30px;bottom:0;left:0;right:0;background: #FFF;opacity: 1;"></div>
+      <div id="drawer" style="position: absolute; top: 0;right:0;width: 250px;bottom: 0"></div>
+    </div>
+    <script>
+      /* iOS 10 bug */
+      document.documentElement.addEventListener('touchstart', function(event) {
+        if (event.touches.length > 1) {
+          event.preventDefault();
+        }
+      }, false);
+      window.wellcome_page = 'debug';
+    </script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>

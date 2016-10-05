@@ -1,0 +1,1112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://dlcs.io/iiif-img/4/21/quilt/list/1",
+  "@type": "sc:AnnotationList",
+
+  "resources": [{
+    "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg1",
+    "@type": "oa:Annotation",
+    "motivation": "sc:painting",
+    "resource": {
+      "@type":"oa:SpecificResource",
+      "full": {
+        "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+        "@type": "dctypes:Image"
+      },
+      "selector":{
+        "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+        "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2832,3695 4050,3935 2880,5405' /></svg>"
+      },
+      "on": "https://dlcs.io/iiif-img/4/21/quilt"
+    }
+  },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2880,5423 4182,5075 3816,6502' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg3",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='258,3035 2814,3695 1368,5627 288,4859' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg4",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='1374,5633 2820,3707 2886,5441' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg5",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='1788,2837 3114,2855 2814,3695' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg6",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2814,3701 3132,2849 4062,3929' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg7",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='3132,2849 4050,3929 5580,2879' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg8",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='4050,3935 5604,2873 5574,4709' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg9",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='5574,4709 5610,2861 7116,4349' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg10",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='5639,2876 7870,2892 7110,4356' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg11",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7118,4352 7874,2884 8458,4644' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg12",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='8454,4644 9698,4700 10274,2848 8842,2896' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg13",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='9698,4704 10278,2844 11742,2780 11946,5112' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg14",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7890,2888 8842,2900 8450,4644' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg15",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2863,5414 4055,3934 4183,5078' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg16",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='4063,3950 4183,5102 5583,4718' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg17",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='4199,5110 5583,4702 5799,5870' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg18",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='5583,4694 7110,4350 5799,5878' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg19",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='5799,5857 7110,4366 7286,5958' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg20",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7286,5958 7110,4366 8454,4638' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg21",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7286,5958 8454,4638 8502,6302' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg22",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='8494,6294 8462,4646 9694,4710' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg23",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='8502,6302 9694,4710 10134,6254' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg24",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='10134,6254 9694,4710 11934,5118' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg25",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='10134,6254 11934,5118 11774,6749' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg26",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='11774,6749 11934,5118 12710,5926 12702,6254' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg27",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='291,4864 1363,5636 907,7404 331,6440' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg28",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='907,7400 1363,5636 2559,7124' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg29",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2563,7112 1367,5640 2883,5436' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg30",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2567,7116 2887,5428 3827,6532' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg31",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='3819,6512 4191,5096 4819,7188' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg32",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='4819,7188 4191,5100 5799,5880' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg33",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='4819,7188 5795,5892 6339,7080' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg34",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='6327,7072 5787,5880 7294,5956' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg35",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='6339,7072 7294,5960 7426,7432' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg36",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7426,7432 7306,5968 8506,6308' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg37",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7430,7448 8502,6320 8638,7652' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg38",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='8642,7644 8502,6304 10142,6256' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg39",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='8638,7652 10146,6260 10438,8312' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg40",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='10442,8320 10146,6264 11786,6764' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg41",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='10446,8320 11782,6768 12722,7712 12778,8856' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg42",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='387,8752 915,7400 2047,8728' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg43",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='919,7396 2539,7124 2039,8720' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg44",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2049,8724 2523,7160 3875,8180' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg45",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2523,7136 3815,6532 3883,8184' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg46",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='3883,8184 3815,6532 4815,7188' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg47",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='3891,8180 4815,7188 5711,8920' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg48",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='5719,8920 6347,7096 6732,8312' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg49",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='5719,8916 4823,7196 6343,7084' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg50",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='6347,7080 7434,7436 6738,8304' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg51",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='6738,8304 7434,7444 7834,8984' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg52",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7834,8984 7438,7448 8630,7652' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg53",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7842,8980 8638,7652 8826,10068 8790,10068' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg54",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='8862,10064 8642,7656 10442,8320 9558,10064' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg55",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='9562,10064 10450,8320 11362,10128' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg56",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='11362,10128 10446,8308 12778,8860' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg57",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='371,8768 2055,8736 1263,10084' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg58",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='1263,10100 2051,8744 2699,9816' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg59",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2051,8728 3871,8176 2699,9816' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg60",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2703,9816 3875,8176 4019,10048' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg61",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='4023,10056 3887,8176 5715,8928' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg62",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='4071,10044 5715,8924 6423,10040' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg63",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='5715,8924 6734,8308 6411,10036' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg64",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='6423,10040 6738,8316 7838,8984 7050,10060' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    },
+    {
+      "@id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg65",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type":"oa:SpecificResource",
+        "full": {
+          "@id": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
+          "@type": "dctypes:Image"
+        },
+        "selector":{
+          "@type": ["oa:SvgSelector","cnt:ContentAsText"],
+          "chars":"<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7050,10060 7846,8980 8794,10064' /></svg>"
+        },
+        "on": "https://dlcs.io/iiif-img/4/21/quilt"
+      }
+    }
+  ]
+}

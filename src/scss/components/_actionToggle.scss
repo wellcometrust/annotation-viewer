@@ -1,0 +1,48 @@
+.action-toggle {
+  position: absolute;
+  top: 14px;
+  right: 20px;
+
+  width: 20px;
+  height: 20px;
+
+  &__left-line,
+  &__right-line {
+    width: 2px;
+    border-radius: 1px;
+    background: $black;
+    height: 20px;
+    position: absolute;
+    //top: 0;
+    left: 20px;
+    //transform-origin: -15px;
+    transition: all .3s;
+  }
+
+  &__left-line {
+    transform: rotate(135deg);
+
+
+    .action-toggle:hover & {
+      left: 18px;
+    }
+
+    .action-toggle--active &,
+    .action-toggle--active:hover & {
+      left: 4px;
+    }
+  }
+
+  &__right-line {
+    transform: rotate(45deg);
+
+    .action-toggle:hover & {
+      left: 4px;
+    }
+
+    .action-toggle--active &,
+    .action-toggle--active:hover & {
+      left: 18px;
+    }
+  }
+}

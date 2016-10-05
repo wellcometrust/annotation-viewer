@@ -1,0 +1,12 @@
+$info-button-margin: 20px;
+
+.info-button {
+  position: absolute;
+  left: $info-button-margin;
+  top: $info-button-margin;
+  z-index: 200;
+
+  &--hidden {
+    display: none;
+  }
+}

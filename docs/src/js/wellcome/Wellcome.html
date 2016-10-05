@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="en"><head><title>src/js/wellcome/Wellcome</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content="../../../"><meta name="groc-document-path" content="src/js/wellcome/Wellcome"><meta name="groc-project-path" content="src/js/wellcome/Wellcome.js"><link rel="stylesheet" type="text/css" media="all" href="../../../assets/style.css"><script type="text/javascript" src="../../../assets/behavior.js"></script><body><div id="meta"><div class="file-path">src/js/wellcome/Wellcome.js</div></div><div id="document"><div class="segment"><div class="comments "><div class="wrapper"><p>App</p>
+<p>This should compose components in a logical manner that is reusable by replacing each
+component separately per-project. The viewer injected must match the actions that are
+configured in the viewerActions. The same for the annotations, where actions may be
+added in the future.</p></div></div><div class="code"><div class="wrapper"><span class="hljs-keyword">import</span> View <span class="hljs-keyword">from</span> <span class="hljs-string">'./View'</span>;
+<span class="hljs-keyword">import</span> AnnotationHandler <span class="hljs-keyword">from</span> <span class="hljs-string">'./AnnotationHandler'</span>;
+<span class="hljs-keyword">import</span> { addTiledImage, addOverlay, bindEvents } <span class="hljs-keyword">from</span> <span class="hljs-string">'../redux/actions/viewerActions'</span>;
+<span class="hljs-keyword">import</span> createStore <span class="hljs-keyword">from</span> <span class="hljs-string">'../redux/createStore'</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Wellcome</span> </span>{
+
+  constructor(manifestUrl, viewer, ConfiguredView = View, Annotation = AnnotationHandler) {</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>Create the store passing the viewer.</p></div></div><div class="code"><div class="wrapper">    <span class="hljs-keyword">this</span>.store = createStore(viewer);</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>Bind the events for the viewer.</p></div></div><div class="code"><div class="wrapper">    <span class="hljs-keyword">this</span>.dispatch(bindEvents());</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>Get manifests.</p></div></div><div class="code"><div class="wrapper">    <span class="hljs-keyword">this</span>.manifest = <span class="hljs-keyword">this</span>.getManifest(manifestUrl);
+    <span class="hljs-keyword">this</span>.annotations = <span class="hljs-keyword">this</span>.getAnnotations(<span class="hljs-keyword">this</span>.manifest);</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>Create annotation handler.</p></div></div><div class="code"><div class="wrapper">    <span class="hljs-keyword">this</span>.annotationHandler = <span class="hljs-keyword">new</span> Annotation(<span class="hljs-keyword">this</span>.annotations, <span class="hljs-keyword">this</span>.store);</div></div></div><div class="segment"><div class="comments doc-section"><div class="wrapper"><p>Render image to OSD?</p>
+<p>TODO: see if this is needed.</p></div></div><div class="code"><div class="wrapper">    <span class="hljs-keyword">this</span>.renderImage(<span class="hljs-keyword">this</span>.manifest);</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>Generate view model.</p></div></div><div class="code"><div class="wrapper">    <span class="hljs-keyword">const</span> viewModel = <span class="hljs-keyword">this</span>.annotationHandler.getViewModel();</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>Create view.</p></div></div><div class="code"><div class="wrapper">    <span class="hljs-keyword">this</span>.view = <span class="hljs-keyword">new</span> ConfiguredView(viewModel, <span class="hljs-keyword">this</span>.store);
+  }
+
+  getManifest(manifestUrl) {</div></div></div><div class="segment"><div class="comments doc-section"><div class="wrapper"><p>TODO: unstub.</p></div></div><div class="code"><div class="wrapper">    <span class="hljs-keyword">return</span> manifestUrl;
+  }
+
+  getAnnotations(manifest) {</div></div></div><div class="segment"><div class="comments doc-section"><div class="wrapper"><p>TODO: unstub.</p></div></div><div class="code"><div class="wrapper">    <span class="hljs-keyword">return</span> {stubbed: <span class="hljs-string">'annotations list'</span>, manifest};
+  }
+
+  dispatch(...props) {
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.store.dispatch(...props);
+  }
+
+  subscribe(...props) {
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.store.subscribe(...props);
+  }
+
+  renderImage(manifest) {</div></div></div><div class="segment"><div class="comments doc-section"><div class="wrapper"><p>TODO: unstub.</p></div></div><div class="code"><div class="wrapper">    <span class="hljs-keyword">this</span>.dispatch(addTiledImage(manifest));
+  }
+
+  mountTo(id) {
+    <span class="hljs-keyword">this</span>.view.mountComponent(id);
+  }
+
+}</div></div></div></div></body></html>

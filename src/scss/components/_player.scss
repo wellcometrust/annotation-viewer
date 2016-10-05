@@ -1,0 +1,417 @@
+.player-title {
+  font-size: 0.75em;
+  border-radius: 3px;
+  font-weight: 300;
+  color: $grey-light;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  padding: 0.75em;
+  background-color: rgba(0, 0, 0, .7);
+  border: 1px solid $black;
+  z-index: 100;
+}
+
+.player-image {
+  background-color: $grey-dark;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 100px;
+  left: 0;
+  //padding: 10px;
+  text-align: center;
+  z-index: 1;
+  max-width: 100%;
+  overflow: auto;
+
+  &__link {
+    cursor: zoom-in;
+  }
+
+  &__image {
+    height: 100%;
+  }
+
+  &__loading {
+    filter: blur(1px);
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+
+.player-actions {
+  color: $white;
+  position: absolute;
+  bottom: 50px;
+  height: 50px;
+  //background: rgba(0, 0, 0, .7);
+  background: $black;
+  left: 0;
+  right: 0;
+  z-index: 300;
+  text-align: center;
+  border-top: 1px solid $black;
+  border-bottom: 2px solid $black;
+
+  &__slider {
+    //display: inline-block;
+    margin: 0 auto;
+    padding: 0 100px;
+    height: 48px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    white-space: nowrap;
+    width: 100%;
+
+    &:after {
+      clear: both;
+    }
+  }
+
+  &__inline-label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    text-align: center;
+    font-size: 0.75em;
+    padding: 1.4em 0;
+  }
+
+  &__slider-label {
+    position: absolute;
+    width: 80px;
+    border-radius: 3px;
+    top: -40px;
+    font-size: 0.75em;
+    padding: 0.75em 0;
+    background-color: rgba(0, 0, 0, .7);
+    border: 1px solid $black;
+    z-index: 100;
+    display: none;
+
+    *:focus ~ &,
+    *:active ~ & {
+      display: block;
+    }
+
+    .player-actions:hover & {
+      display: block;
+    }
+  }
+
+  &__slider-thumbnail {
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 2px;
+    transition: .2s margin;
+
+    img {
+      transition: .2s height;
+      height: 38px;
+    }
+  }
+
+  &__slider-thumbnail--current {
+    margin: 1px 10px;
+
+    img {
+      height: 44px;
+    }
+  }
+
+  &__slider-thumbnail:focus {
+    outline: none;
+
+    img {
+      box-shadow: 0 0 5px 2px $pink;
+    }
+  }
+
+  &__navigation {
+    position: absolute;
+    right: 0;
+    top: 1px;
+    bottom: 0;
+  }
+
+  &__prev-page,
+  &__next-page {
+    user-select: none;
+    float: left;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.75px;
+    color: $grey-mid;
+    padding: 0 1em;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      color: $white;
+      background: $grey-dark;
+    }
+
+    &:focus {
+      outline: 1px dotted $white;
+    }
+  }
+
+  &__navigation-text {
+    line-height: 48px;
+  }
+
+  &__navigation-icon {
+    margin-top: 10px;
+    height: 25px;
+    margin-bottom: 10px;
+
+    &--small {
+      height: 22px;
+      margin-bottom: 8px;
+      margin-top: 8px;
+    }
+  }
+
+  &__next-page {
+    float: right;
+  }
+
+
+  &__seeker {
+    background: $black;
+    position: relative;
+    height: 1px;
+    max-width: 600px;
+    margin: 24px auto;
+
+    &:before {
+      position: absolute;
+      top: -6px;
+      bottom: 0;
+      left: -1px;
+      width: 1px;
+      height: 13px;
+      background: rgba(255, 255, 255, .6);
+      content: "";
+    }
+
+    &:after {
+      position: absolute;
+      top: -6px;
+      bottom: 0;
+      right: -1px;
+      width: 1px;
+      height: 13px;
+      background: rgba(255, 255, 255, .6);
+      content: "";
+    }
+  }
+
+  &__seeker-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, .6);
+  }
+
+  &__seeker-current {
+    position: absolute;
+    //top: 0;
+    bottom: 0;
+    //width: 30px;
+    left: 100px;
+    background: $white;
+
+    width: 6px;
+    height: 20px;
+    top: -10px;
+  }
+
+  &__seeker-progress {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    background: $white;
+  }
+}
+
+.player-annotations {
+  padding: 10px;
+  position: relative;
+  top: -50px; // avoiding calc()
+  margin-top: 100vh;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+
+  &__title {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    font-size: 1.5em;
+    line-height: 1.375em;
+  }
+
+  &__content {
+
+    h3 {
+      font-size: 1.125em;
+    }
+  }
+}
+
+.player-hint {
+  color: $grey;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  line-height: 50px;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px;
+  text-align: center;
+  z-index: 7;
+}
+
+
+.osd-player {
+  //padding-top: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 100px;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 100;
+
+  &--quilt {
+    bottom: 0;
+  }
+
+  &__container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+
+  &:hover {
+    display: block;
+  }
+}
+
+%zoom-background {
+  border: 1px solid $black;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.zoom-control {
+  font-weight: 300;
+  color: $grey-light;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  z-index: 8000;
+  overflow: hidden;
+}
+
+.zoom-control__button {
+  @extend %zoom-background;
+  margin: 2px;
+  color: $grey-light;
+  text-decoration: none;
+  float: left;
+  width: 40px;
+  text-align: center;
+  height: 40px;
+  line-height: 25px;
+  font-size: 1.5em;
+  padding: 5px;
+  transition: color .2s;
+  user-select: none;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    border: 1px solid $white;
+    background-color: rgba(0, 0, 0, .3);
+  }
+}
+
+.zoom-control__button--disabled {
+  opacity: 0.3;
+  cursor: default;
+  pointer-events: none;
+
+  &:hover,
+  &:focus {
+    background: transparent;
+  }
+}
+
+.player-gestures {
+  position: absolute;
+  z-index: 7000;
+  top: 0;
+  bottom: 100px;
+  right: 0;
+  left: 0;
+  //background: rgba(0, 0, 0, .4);
+}
+
+.player-paddle {
+  background: transparent;
+  top: 0;
+  bottom: 100px;
+  display: block;
+  width: 80px;
+  z-index: 7001;
+  position: absolute;
+
+  &--right {
+    right: 0;
+  }
+
+  &--left {
+    left: 0;
+  }
+}
+
+.player-home-button {
+  @extend %zoom-background;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  height: 40px;
+  width: 40px;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.player-reset-button {
+  @extend %zoom-background;
+  height: 40px;
+  width: 40px;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 10000;
+  margin: 2px;
+  color: $grey-light;
+  text-decoration: none;
+  float: left;
+  transition: color .2s;
+  user-select: none;
+}

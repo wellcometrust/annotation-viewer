@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="en"><head><title>index</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content=""><meta name="groc-document-path" content="index"><meta name="groc-project-path" content="README.md"><link rel="stylesheet" type="text/css" media="all" href="assets/style.css"><script type="text/javascript" src="assets/behavior.js"></script><body><div id="meta"><div class="file-path">README.md</div></div><div id="document"><div class="segment"><div class="comments "><div class="wrapper"><h1 id="wellcome-quilt-prototype">Wellcome Quilt Prototype</h1>
+<p>This is going to cover the initial prototype stage for Wellcome Quilt project.</p>
+<h2 id="high-level-overview">High level overview</h2>
+<p><img src="https://cloud.githubusercontent.com/assets/8266711/17297674/994b2c38-57fe-11e6-9982-5c0489a95fe2.png" alt="osd with annotations"></p>
+<h2 id="store">Store</h2>
+<p>The store is a small redux implementation. This was chosen for its upfront contracts to the UI layer that can be designed prior to either implementation of an API or the UI itself. This serves as a source of truth for both parties and intermediate data structure that fits the business requirements.</p>
+<p>The store uses a variation on the command-control pattern to ensure scalability of data/actions and also reduce complexity as pieces are rebuilt in the short and long term.</p>
+<h2 id="view">View</h2>
+<p>Designed to be changed, implemented in React for this demo. It requires a constructor that accepts a annotation view model and Redux store, and a mountTo() implementation for rendering. The rest is completely open.</p>
+<h2 id="viewer">Viewer</h2>
+<p>This CAN be changed, but it is not advised. To change it you must replace the viewer actions to talk to the other viewer.</p>
+<h2 id="annotation-handler-name-tbc">Annotation Handler (name TBC)</h2>
+<p>The exact implementation is to be confirmed, but this will compute the annotations from the server and digest the information into a data store for the UI to consume. It will also potentially render a d3 layer that contains polygons etc for viewing. This Polygon data will be used regardless for calculating the x, y, positions and also the optimal zoom level to contain the whole image.</p>
+<h3 id="based-on-front-end-starter-kit">Based on Front end starter kit</h3>
+<p><a href="https://github.com/digirati-co-uk/digirati-front-end-starter">View project on GitHub</a></p></div></div></div></div></body></html>

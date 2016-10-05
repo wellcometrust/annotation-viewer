@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="en"><head><title>src/js/redux/actions/viewerActions</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content="../../../../"><meta name="groc-document-path" content="src/js/redux/actions/viewerActions"><meta name="groc-project-path" content="src/js/redux/actions/viewerActions.js"><link rel="stylesheet" type="text/css" media="all" href="../../../../assets/style.css"><script type="text/javascript" src="../../../../assets/behavior.js"></script><body><div id="meta"><div class="file-path">src/js/redux/actions/viewerActions.js</div></div><div id="document"><div class="segment"><div class="comments "><div class="wrapper"><h2 id="viewer-actions">Viewer Actions</h2>
+<p>This contains actions exposed to the application to control the viewer. This allows the
+viewer itself to be independent. This should be the only file that mutates the player.</p>
+<p>Where possible any new mutations should also record state in the reducer passing the
+relevant information in the action.</p></div></div><div class="code"><div class="wrapper"><span class="hljs-keyword">import</span> <span class="hljs-string">'OpenseaDragon'</span>;</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>global OpenSeadragon </p></div></div><div class="code"><div class="wrapper"><span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> ADD_OVERLAY = <span class="hljs-string">'ADD_OVERLAY'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> ROTATE_BY = <span class="hljs-string">'ROTATE_BY'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> ZOOM_TO = <span class="hljs-string">'ZOOM_TO'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> PAN_TO = <span class="hljs-string">'PAN_TO'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> LAST_KNOWN_POSITION = <span class="hljs-string">'LAST_KNOWN_POSITION'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> ROTATE_TO = <span class="hljs-string">'ROTATE_TO'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> ADD_TILED_IMAGE = <span class="hljs-string">'ADD_TILED_IMAGE'</span>;
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">lastKnownPosition</span>(<span class="hljs-params">x, y, zoom = null</span>) </span>{
+  <span class="hljs-keyword">return</span> {type: LAST_KNOWN_POSITION, payload: {x, y, zoom}};
+}
+
+<span class="hljs-keyword">const</span> updateLastKnown = () =&gt; (dispatch, state, player) =&gt; {
+  <span class="hljs-keyword">const</span> { x, y } = player.viewport.getCenter();
+  dispatch(lastKnownPosition(x, y, player.viewport.getZoom()));
+};
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> bindEvents = () =&gt; (dispatch, state, player) =&gt; {</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>Update on some events.</p></div></div><div class="code"><div class="wrapper">  player.addHandler(<span class="hljs-string">'canvas-drag-end'</span>, () =&gt; dispatch(updateLastKnown()));
+  player.addHandler(<span class="hljs-string">'zoom'</span>, () =&gt; dispatch(updateLastKnown()));</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>Update to start with.</p></div></div><div class="code"><div class="wrapper">  dispatch(updateLastKnown());
+};
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> addTiledImage = (image) =&gt; (dispatch, state, player) =&gt; {
+  player.open(image);
+  dispatch({type: ADD_TILED_IMAGE, payload: {image}});
+};
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> addOverlay = (element, height, width, x = <span class="hljs-number">0</span>, y = <span class="hljs-number">0</span>) =&gt; (dispatch, state, player) =&gt; {
+  player.addOverlay({
+    element,
+    location: player.viewport.imageToViewportRectangle(
+        <span class="hljs-keyword">new</span> OpenSeadragon.Rect(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, width, height)
+    )
+  });
+  dispatch({type: ADD_OVERLAY, payload: {element, height, width, x, y}});
+};
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> rotateTo = (degrees) =&gt; (dispatch, state, player) =&gt; {
+  player.viewport.setRotation(degrees);
+  dispatch({type: ROTATE_TO, payload: {degrees}});
+};
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> rotateBy = (degrees) =&gt; (dispatch, state, player) =&gt; {
+  player.viewport.setRotation(degrees);
+  dispatch({type: ROTATE_BY, payload: {degrees}});
+};
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> zoomTo = (zoom, refPoint = <span class="hljs-literal">null</span>, immediately = <span class="hljs-literal">false</span>) =&gt; (dispatch, state, player) =&gt; {
+  player.viewport.zoomTo(zoom, refPoint, immediately);
+  dispatch({type: ZOOM_TO, payload: {zoom, refPoint}});
+};
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> panTo = (x, y) =&gt; (dispatch, state, player) =&gt; {
+  player.viewport.panTo(<span class="hljs-keyword">new</span> OpenSeadragon.Point(x, y));
+  dispatch({type: PAN_TO, payload: {x, y}});
+};
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> goTo = (x, y, zoom, deg = <span class="hljs-literal">null</span>) =&gt; (dispatch) =&gt; {
+  dispatch(panTo(x, y));
+  dispatch(zoomTo(zoom));
+  <span class="hljs-keyword">if</span> (deg) {
+    dispatch(rotateTo(deg));
+  }
+};</div></div></div></div></body></html>

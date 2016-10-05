@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="en"><head><title>src/js/redux/reducers/annotationReducer</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content="../../../../"><meta name="groc-document-path" content="src/js/redux/reducers/annotationReducer"><meta name="groc-project-path" content="src/js/redux/reducers/annotationReducer.js"><link rel="stylesheet" type="text/css" media="all" href="../../../../assets/style.css"><script type="text/javascript" src="../../../../assets/behavior.js"></script><body><div id="meta"><div class="file-path">src/js/redux/reducers/annotationReducer.js</div></div><div id="document"><div class="segment"><div class="comments "><div class="wrapper"><h2 id="annotation-reducer">Annotation Reducer</h2>
+<p>This is where we record the state of the annotations. This will include adding the
+annotations initially and also recording the state when the annotations are being
+viewed.</p></div></div><div class="code"><div class="wrapper"><span class="hljs-keyword">import</span> { ACTIVE_ANNOTATION } <span class="hljs-keyword">from</span> <span class="hljs-string">'../actions/annotationActions'</span>;
+
+<span class="hljs-keyword">const</span> default_state = {
+  selected: {},
+  list: [
+    {
+      name: <span class="hljs-string">'first'</span>,
+      x: <span class="hljs-number">0.10970329757163497</span>,
+      y: <span class="hljs-number">0.3352769748048794</span>,
+      zoom: <span class="hljs-number">2.6274194716671744</span>,
+      rotation: <span class="hljs-number">333</span>
+    },
+    {
+      name: <span class="hljs-string">'second'</span>,
+      x: <span class="hljs-number">0.25</span>,
+      y: <span class="hljs-number">0.34</span>,
+      zoom: <span class="hljs-number">4.5</span>,
+      rotation: <span class="hljs-number">315</span>
+    },
+    {
+      name: <span class="hljs-string">'third'</span>,
+      x: <span class="hljs-number">0.8969657248691317</span>,
+      y: <span class="hljs-number">0.7033570144622934</span>,
+      zoom: <span class="hljs-number">2.724108508224526</span>,
+      rotation: <span class="hljs-number">298</span>
+    }
+  ]
+};
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">annotationReducer</span>(<span class="hljs-params">state = default_state, action</span>) </span>{
+  <span class="hljs-keyword">switch</span> (action.type) {
+
+    <span class="hljs-keyword">case</span> ACTIVE_ANNOTATION:
+      <span class="hljs-keyword">return</span> <span class="hljs-built_in">Object</span>.assign({}, state, {
+        selected: action.payload
+      });
+
+    <span class="hljs-keyword">default</span>:
+      <span class="hljs-keyword">return</span> state;
+
+  }
+}</div></div></div></div></body></html>

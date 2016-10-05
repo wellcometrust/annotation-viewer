@@ -1,0 +1,37 @@
+{
+  "extends": "airbnb-base",
+  "plugins": [
+    "react"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true,
+    "experimentalObjectRestSpread": true
+  },
+  "env": {
+    "browser": true,
+    "amd": true,
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "indent": 0,
+    "object-curly-spacing": 0,
+    "import/prefer-default-export": 0,
+    "no-unused-vars": 0,
+    "comma-dangle": 0,
+    "no-underscore-dangle": 0,
+    "no-shadow": 0,
+    "no-confusing-arrow": 0,
+    "camelcase": 0,
+    "max-len": 0
+  }
+}
