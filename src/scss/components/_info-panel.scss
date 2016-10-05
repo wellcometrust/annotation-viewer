@@ -1,7 +1,7 @@
 $close-button-margin: 20px;
 
 .info-panel {
-  background-color: $white-trans;
+  background-color: $white-trans-90;
   color: $black;
   display: none;
   height: 100vh;
@@ -29,8 +29,25 @@ $close-button-margin: 20px;
   &__content {
     //border: 5px dashed $black-trans;
     //border-radius: 19px;
-    margin: 20vh auto;
+    font-family: $wellcome-stack;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 10vh auto;
     max-width: 600px;
     padding: 40px;
+  }
+
+  a {
+    border-bottom: 4px solid $link-border;
+    color: $link;
+    text-decoration: none;
+    transition: all 0.6s ease;
+
+    &:active,
+    &:focus,
+    &:hover {
+      border-color: $link-hover-border;
+      color: $link-hover;
+    }
   }
 }

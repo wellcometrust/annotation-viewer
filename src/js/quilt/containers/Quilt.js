@@ -83,10 +83,7 @@ class Quilt extends Component {
         <div className="quilt-container__inner">
           <InfoButton isOpen={this.props.isOpen} title="Information about The Quilt" onClick={ () => dispatch(openInfoPanel()) } />
           <InfoPanel isOpen={this.props.isOpen} buttonTitle="Close" onClose={ ()=> dispatch(closeInfoPanel()) }>
-            <h1>The Quilt</h1>
-            <p>Information about the quilt goes here</p>
-            <p>Some more text</p>
-            <p>etc.</p>
+            <p>As part of our &lsquo;<a href="https://wellcomecollection.org/exhibitions/states-mind-tracing-edges-consciousness" target="_blank">States of Mind</a>&rsquo; exhibition, the <a href="https://wellcomecollection.org/sleepstories/" target="_blank">Sleep Stories</a> quilt was made in Wellcome Collection by visitors who shared and stitched their stories of what happens while they're asleep.</p>
           </InfoPanel>
           { /* The `else` part of the if statement is temporary. */ }
           { journeyStarted ? (

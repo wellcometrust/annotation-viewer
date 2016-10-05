@@ -1,16 +1,22 @@
 // Primary colour declarations
 // - Direct mappings of variable names to colour values
-$white:       #fff;
-$white-trans: rgba(255, 255, 255, .7);
-$black:       #000;
-$black-trans: rgba(0, 0, 0, .7);
+$white:             #fff;
+$white-trans-90:    rgba(255, 255, 255, .9);
+$white-trans:       rgba(255, 255, 255, .7);
+$black:             #000;
+$black-trans:       rgba(0, 0, 0, .7);
 
-$grey:        #ccc;
-$grey-light:  #eee;
-$grey-mid:    #bbb;
-$grey-dark:   #2f2f2f;
+$grey:              #ccc;
+$grey-light:        #eee;
+$grey-mid:          #bbb;
+$grey-dark:         #2f2f2f;
 
-$pink:        #d06a7f;
+$pink:              #d06a7f;
+
+$link-border:       #e5e2e1;
+$link-hover-border: #cbc6c3;
+$link:              $black;
+$link-hover:        $black;
 
 // Secondary colour declarations
 // - Mapping of features to colour names
