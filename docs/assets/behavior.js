@@ -13,7 +13,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "commentsOnly": true,
           "name": "Markdown"
         },
-        "sourcePath": "/Users/Stephen/Workspaces/wellcome/wellcome-quilt/README.md",
+        "sourcePath": "/Users/Stephen/Workspaces/wellcome/annotation-viewer-2/README.md",
         "projectPath": "README.md",
         "targetPath": "index",
         "pageTitle": "index",
@@ -32,13 +32,14 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "foldPrefix": "^",
           "name": "JavaScript"
         },
-        "sourcePath": "/Users/Stephen/Workspaces/wellcome/wellcome-quilt/Gruntfile.js",
+        "sourcePath": "/Users/Stephen/Workspaces/wellcome/annotation-viewer-2/Gruntfile.js",
         "projectPath": "Gruntfile.js",
         "targetPath": "Gruntfile",
         "pageTitle": "Gruntfile",
         "title": "Gruntfile"
       },
-      "depth": 1
+      "depth": 1,
+      "outline": []
     }
   ];
 
