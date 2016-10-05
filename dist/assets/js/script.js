@@ -64578,6 +64578,7 @@ function symbolObservablePonyfill(root) {
 })(typeof self !== 'undefined' ? self : this);
 
 },{}],212:[function(require,module,exports){
+(function (process){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -64604,8 +64605,7 @@ function fetch(url) {
 }
 
 function getPath(asset) {
-  return "/assets/" + asset;
-  //return process.env.__DEV__ ? `/assets/${asset}` : `/wellcome-quilt-prototype/assets/${asset}`;
+  return process.env.__DEV__ ? "/assets/" + asset : "/wellcome-quilt-prototype/assets/" + asset;
 }
 
 function asyncAddTiledImage(viewer) {
@@ -64628,7 +64628,8 @@ function asyncAddTiledImage(viewer) {
   });
 }
 
-},{}],213:[function(require,module,exports){
+}).call(this,require('_process'))
+},{"_process":39}],213:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
