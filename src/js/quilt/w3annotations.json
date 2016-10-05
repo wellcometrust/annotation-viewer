@@ -40,7 +40,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 240,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7834,8984 7438,7448 8630,7652' /></svg>"
@@ -262,7 +262,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 20,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='6738,8304 7434,7444 7834,8984' /></svg>"
@@ -305,7 +305,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 327,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='4071,10044 5715,8924 6423,10040' /></svg>"
@@ -342,7 +342,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 198,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2051,8728 3871,8176 2699,9816' /></svg>"
@@ -416,7 +416,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 142,
+        "sc:naturalAngle": 76,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2880,5423 4182,5075 3816,6502' /></svg>"
@@ -459,7 +459,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 323,
+        "sc:naturalAngle": 160,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='258,3035 2814,3695 1368,5627 288,4859' /></svg>"
@@ -1106,7 +1106,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 300,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7286,5958 8454,4638 8502,6302' /></svg>"
@@ -1174,7 +1174,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 10,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='8502,6302 9694,4710 10134,6254' /></svg>"
@@ -1254,7 +1254,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 166,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='10134,6254 11934,5118 11774,6749' /></svg>"
@@ -1285,7 +1285,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 261,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='11774,6749 11934,5118 12710,5926 12702,6254' /></svg>"
@@ -1328,7 +1328,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 340,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='291,4864 1363,5636 907,7404 331,6440' /></svg>"
@@ -1377,7 +1377,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 227,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='907,7400 1363,5636 2559,7124' /></svg>"
@@ -1408,7 +1408,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 128,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2563,7112 1367,5640 2883,5436' /></svg>"
@@ -1451,7 +1451,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 200,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2567,7116 2887,5428 3827,6532' /></svg>"
@@ -1500,7 +1500,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 196,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='3819,6512 4191,5096 4819,7188' /></svg>"
@@ -1537,7 +1537,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 102,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='4819,7188 4191,5100 5799,5880' /></svg>"
@@ -1568,7 +1568,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 232,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='4819,7188 5795,5892 6339,7080' /></svg>"
@@ -1599,7 +1599,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 18,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='6339,7072 7294,5960 7426,7432' /></svg>"
@@ -1636,7 +1636,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 314,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7426,7432 7306,5968 8506,6308' /></svg>"
@@ -1689,7 +1689,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 220,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='8642,7644 8502,6304 10142,6256' /></svg>"
@@ -1732,7 +1732,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 263,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='8638,7652 10146,6260 10438,8312' /></svg>"
@@ -1769,7 +1769,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 210,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='10442,8320 10146,6264 11786,6764' /></svg>"
@@ -1843,7 +1843,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 128,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='387,8752 915,7400 2047,8728' /></svg>"
@@ -1886,7 +1886,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 86,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='919,7396 2539,7124 2039,8720' /></svg>"
@@ -1935,7 +1935,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 254,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2049,8724 2523,7160 3875,8180' /></svg>"
@@ -1978,7 +1978,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 80,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2523,7136 3815,6532 3883,8184' /></svg>"
@@ -2021,7 +2021,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 137,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='3883,8184 3815,6532 4815,7188' /></svg>"
@@ -2064,7 +2064,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 230,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='5719,8920 6347,7096 6732,8312' /></svg>"
@@ -2107,7 +2107,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 243,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='5719,8916 4823,7196 6343,7084' /></svg>"
@@ -2162,7 +2162,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 262,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='6347,7080 7434,7436 6738,8304' /></svg>"
@@ -2242,7 +2242,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 64,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='8862,10064 8642,7656 10442,8320 9558,10064' /></svg>"
@@ -2285,7 +2285,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 297,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='11362,10128 10446,8308 12778,8860' /></svg>"
@@ -2334,7 +2334,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 40,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='371,8768 2055,8736 1263,10084' /></svg>"
@@ -2371,7 +2371,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 29,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='1263,10100 2051,8744 2699,9816' /></svg>"
@@ -2414,7 +2414,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 134,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2703,9816 3875,8176 4019,10048' /></svg>"
@@ -2457,7 +2457,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 313,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='4023,10056 3887,8176 5715,8928' /></svg>"
@@ -2531,7 +2531,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 247,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='6423,10040 6738,8316 7838,8984 7050,10060' /></svg>"
@@ -2580,7 +2580,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 20,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7050,10060 7846,8980 8794,10064' /></svg>"
