@@ -1,0 +1,36 @@
+$close-button-margin: 20px;
+
+.info-panel {
+  background-color: $white-trans;
+  color: $black;
+  display: none;
+  height: 100vh;
+  overflow: hidden;
+  padding: 40px;
+  position: relative;
+  width: 100vw;
+  z-index: 200;
+
+  &--dark {
+    background-color: $black-trans;
+    color: $white;
+  }
+
+  &--active {
+    display: block;
+  }
+
+  &__close-button {
+    position: absolute;
+    left: $close-button-margin;
+    top: $close-button-margin;
+  }
+
+  &__content {
+    //border: 5px dashed $black-trans;
+    //border-radius: 19px;
+    margin: 20vh auto;
+    max-width: 600px;
+    padding: 40px;
+  }
+}

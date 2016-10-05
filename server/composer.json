@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Wellcome\\": "src"
+    }
+  },
+  "require": {
+    "silex/silex": "~2.0"
+  },
+  "scripts": {
+    "server": "php -S 0.0.0.0:9808 -t web web/index.php"
+  }
+}

@@ -1,0 +1,16 @@
+.icon-button {
+  background: transparent;
+  border: 0;
+  opacity: .7;
+  padding: 0;
+  transition: opacity .3s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  img {
+    height: auto;
+    width: 36px;
+  }
+}

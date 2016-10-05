@@ -1,0 +1,84 @@
+// ITCSS Structure
+// ---------------
+//  ______
+//  \    /
+//   \  /
+//    \/
+//
+//
+
+// 1. Settings
+// ------------
+// Settings that need to be accessed everywhere, think of these as global variables
+//
+@import "settings/global";
+@import "settings/breakpoints";
+@import "settings/colours";
+@import "settings/fonts";
+@import "settings/typography";
+
+// 2. Tools
+// ---------
+// Any functions or mixins
+//
+@import "tools/functions";
+@import "tools/mixins";
+
+// 3. Generic
+// -----------
+// Global styles, e.g. normalize/reset/box-sizing
+// If you're including 3rd-party code, pull it in from the vendor folder
+//
+@import "vendor/normalize";
+@import "generic/box-sizing";
+
+// 4. Elements
+// ------------
+// Element selectors, use sparingly, changes to these will have wide ranging impact. e.g. h1, ul, li
+//
+// @import "elements/button";
+// @import "elements/form";
+// @import "elements/link";
+// @import "elements/list";
+// @import "elements/page";
+// @import "elements/quote";
+// @import "elements/table";
+// @import "elements/typography";
+
+// 5. Objects
+// -----------
+// Common generic re-usable objects using the BEMIT naming convention, e.g. .o-media, .o-inline-list
+// Prefix class names with 'o-'
+//
+// @import "objects/layout";
+// @import "objects/media";
+@import "objects/icon-button";
+
+// 6. Components
+// --------------
+// Specific component styles using the BEMIT naming convention
+// Prefix class names with 'c-'
+//
+//@import "components/button";
+//@import "components/example";
+//@import "components/footer";
+//@import "components/header";
+@import "components/quilt-container";
+@import "components/player";
+@import "components/slider";
+@import "components/actionToggle";
+@import "components/info-button";
+@import "components/info-panel";
+@import "components/quilt-nav-bar";
+@import "components/quilt-container";
+@import "components/annotation-panel";
+@import "components/close-button";
+@import "components/start-journey";
+
+
+// 7. Trumps
+// ----------
+// Overrides and utility functions required to override any inherited styles
+// Use sparingly
+//
+@import "trumps/utilities";

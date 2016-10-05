@@ -1,0 +1,28 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Zoom version</title>
+    <meta name="description" content="">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+  </head>
+  <body>
+    <div class="container">
+      <div class="osd-player">
+        <div id="player" class="osd-player__container"></div>
+      </div>
+      <div id="drawer"></div>
+    </div>
+    <script>
+      /* iOS 10 bug */
+      document.documentElement.addEventListener('touchstart', function(event) {
+        if (event.touches.length > 1) {
+          event.preventDefault();
+        }
+      }, false);
+      window.wellcome_page = 'zoom';
+    </script>
+    <script src="/wellcome-quilt-prototype/assets/js/script.js"></script>
+  </body>
+</html>
