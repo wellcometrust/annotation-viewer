@@ -67951,7 +67951,6 @@ function mapStateToProps(store) {
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Quilt);
 
 },{"../../Util":212,"../../redux/actions/annotationActions":253,"../../redux/actions/viewerActions":256,"../components/AnnotationPanel":233,"../components/CloseButton":234,"../components/Composite":235,"../components/InfoButton":237,"../components/InfoPanel":238,"../components/NavBar":239,"../components/NavButton":240,"../components/NavItem":241,"../redux/actions/infoActions":246,"../redux/actions/journeyActions":247,"classnames":3,"lodash":36,"react":199,"react-redux":52}],245:[function(require,module,exports){
-(function (process){
 'use strict';
 
 require('OpenSeadragon');
@@ -67978,10 +67977,6 @@ var _createStore2 = _interopRequireDefault(_createStore);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-process.env.__DEV__ = true; /* global OpenSeadragon */
-/* eslint new-cap: 0 */
-
-
 var app = new _Wellcome2.default('https://dlcs.io/iiif-img/4/21/quilt/info.json', OpenSeadragon({
   id: 'player',
   defaultZoomLevel: 0,
@@ -68000,6 +67995,8 @@ var app = new _Wellcome2.default('https://dlcs.io/iiif-img/4/21/quilt/info.json'
 }), _createStore2.default, _View2.default);
 
 // Import annotations
+/* global OpenSeadragon */
+/* eslint new-cap: 0 */
 app.dispatch((0, _annotationActions.importW3cAnnotations)(_w3annotations2.default.items));
 
 // Render the image.
@@ -68008,8 +68005,7 @@ app.renderImage();
 // Mount to screen.
 app.mountTo(document.getElementById('drawer'));
 
-}).call(this,require('_process'))
-},{"../redux/actions/annotationActions":253,"../wellcome/Wellcome":267,"./View":232,"./redux/createStore":248,"./w3annotations.json":252,"OpenSeadragon":1,"_process":39,"whatwg-fetch":211}],246:[function(require,module,exports){
+},{"../redux/actions/annotationActions":253,"../wellcome/Wellcome":267,"./View":232,"./redux/createStore":248,"./w3annotations.json":252,"OpenSeadragon":1,"whatwg-fetch":211}],246:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
