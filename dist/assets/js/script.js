@@ -67845,24 +67845,21 @@ var Quilt = function (_Component) {
               return dispatch((0, _infoActions.closeInfoPanel)());
             } },
           _react2.default.createElement(
-            'h1',
-            null,
-            'The Quilt'
-          ),
-          _react2.default.createElement(
             'p',
             null,
-            'Information about the quilt goes here'
-          ),
-          _react2.default.createElement(
-            'p',
-            null,
-            'Some more text'
-          ),
-          _react2.default.createElement(
-            'p',
-            null,
-            'etc.'
+            'As part of our ‘',
+            _react2.default.createElement(
+              'a',
+              { href: 'https://wellcomecollection.org/exhibitions/states-mind-tracing-edges-consciousness', target: '_blank' },
+              'States of Mind'
+            ),
+            '’ exhibition, the ',
+            _react2.default.createElement(
+              'a',
+              { href: 'https://wellcomecollection.org/sleepstories/', target: '_blank' },
+              'Sleep Stories'
+            ),
+            ' quilt was made in Wellcome Collection by visitors who shared and stitched their stories of what happens while they\'re asleep.'
           )
         ),
         journeyStarted ? _react2.default.createElement(
