@@ -64605,7 +64605,7 @@ function fetch(url) {
 }
 
 function getPath(asset) {
-  return process.env.__DEV__ ? "/assets/" + asset : "/wellcome-quilt-prototype/assets/" + asset;
+  return process.env.__DEV__ ? "/assets/" + asset : "/annotation-viewer/assets/" + asset;
 }
 
 function asyncAddTiledImage(viewer) {
