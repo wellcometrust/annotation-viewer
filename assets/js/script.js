@@ -67974,7 +67974,7 @@ var _createStore2 = _interopRequireDefault(_createStore);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var app = new _Wellcome2.default('https://dlcs.io/iiif-img/4/21/quilt/info.json', OpenSeadragon({
+var app = new _Wellcome2.default('https://accelerator.dlcs.io/dlcs/4/21/quilt/info.json', OpenSeadragon({
   id: 'player',
   defaultZoomLevel: 0,
   animationTime: 0.8,
