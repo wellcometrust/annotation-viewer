@@ -154,7 +154,7 @@ export const rotateTo = (degrees) => (dispatch, state, player) => {
 
 export const rotateBy = (degrees) => (dispatch, state, player) => {
   // Not found a use case for this, but works.
-  player.viewport.setRotation(degrees);
+  player.viewport.setRotation((state().viewer.rotation + degrees) % 360);
   dispatch({type: ROTATE_BY, payload: {degrees}});
 };
 
