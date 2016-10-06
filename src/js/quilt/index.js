@@ -7,6 +7,7 @@ import Wellcome from '../wellcome/Wellcome';
 import annotations from './w3annotations.json';
 import { importW3cAnnotations } from '../redux/actions/annotationActions';
 import createStore from './redux/createStore';
+import { journeyReady } from './redux/actions/journeyActions';
 
 const app = new Wellcome(
     'https://accelerator.dlcs.io/dlcs/4/21/quilt/info.json',
@@ -38,4 +39,7 @@ app.renderImage();
 
 // Mount to screen.
 app.mountTo(document.getElementById('drawer'));
+
+// Ready state.
+setTimeout(() => app.dispatch(journeyReady()), 2000);
 
