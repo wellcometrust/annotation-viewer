@@ -68302,7 +68302,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 240,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7834,8984 7438,7448 8630,7652' /></svg>"
@@ -68524,7 +68524,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 20,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='6738,8304 7434,7444 7834,8984' /></svg>"
@@ -68567,7 +68567,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 327,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='4071,10044 5715,8924 6423,10040' /></svg>"
@@ -68604,7 +68604,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 198,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2051,8728 3871,8176 2699,9816' /></svg>"
@@ -68618,7 +68618,7 @@ module.exports={
         {
           "type": "TextualBody",
           "purpose": "naming",
-          "value": "TEST VALUE REMOVE."
+          "value": "The golden girls"
         },
         {
           "type": "Composite",
@@ -68653,6 +68653,11 @@ module.exports={
       "type": "Annotation",
       "body": [
         {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Teeth"
+        },
+        {
           "type": "Composite",
           "purpose": "describing",
           "items": [
@@ -68673,7 +68678,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 142,
+        "sc:naturalAngle": 76,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2880,5423 4182,5075 3816,6502' /></svg>"
@@ -68684,6 +68689,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg3",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Exams"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -68711,7 +68721,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 323,
+        "sc:naturalAngle": 160,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='258,3035 2814,3695 1368,5627 288,4859' /></svg>"
@@ -68722,6 +68732,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg4",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Passenger"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -68761,6 +68776,11 @@ module.exports={
       "type": "Annotation",
       "body": [
         {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Unbidden"
+        },
+        {
           "type": "Composite",
           "purpose": "describing",
           "items": [
@@ -68786,6 +68806,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg6",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Anaesthetic"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -68819,6 +68844,11 @@ module.exports={
       "type": "Annotation",
       "body": [
         {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "All change"
+        },
+        {
           "type": "Composite",
           "purpose": "describing",
           "items": [
@@ -68844,6 +68874,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg8",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Mr McGregor"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -68883,6 +68918,11 @@ module.exports={
       "type": "Annotation",
       "body": [
         {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Daddy"
+        },
+        {
           "type": "Composite",
           "purpose": "describing",
           "items": [
@@ -68921,6 +68961,11 @@ module.exports={
       "type": "Annotation",
       "body": [
         {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Tyres"
+        },
+        {
           "type": "Composite",
           "purpose": "describing",
           "items": [
@@ -68952,6 +68997,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg12",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Sink"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -68985,6 +69035,11 @@ module.exports={
       "type": "Annotation",
       "body": [
         {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Where next?"
+        },
+        {
           "type": "Composite",
           "purpose": "describing",
           "items": [
@@ -69010,6 +69065,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg14",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Cake"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69042,6 +69102,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg15",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Medication"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69081,6 +69146,11 @@ module.exports={
       "type": "Annotation",
       "body": [
         {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Hike"
+        },
+        {
           "type": "Composite",
           "purpose": "describing",
           "items": [
@@ -69107,6 +69177,11 @@ module.exports={
       "type": "Annotation",
       "body": [
         {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Rest"
+        },
+        {
           "type": "Composite",
           "purpose": "describing",
           "items": [
@@ -69132,6 +69207,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg18",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Sominex"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69171,12 +69251,17 @@ module.exports={
       "type": "Annotation",
       "body": [
         {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Surgeon"
+        },
+        {
           "type": "Composite",
           "purpose": "describing",
           "items": [
             {
               "type": "TextualBody",
-              "value": "As a sugeon I struggle with sleep, insomnia, when I do eventually fall alseep I am awakened by the image of a clock, the hands are surgical instruments."
+              "value": "As a surgeon I struggle with sleep, insomnia, when I do eventually fall alseep I am awakened by the image of a clock, the hands are surgical instruments."
             }
           ]
         },
@@ -69208,6 +69293,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg20",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Football"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69247,6 +69337,11 @@ module.exports={
       "type": "Annotation",
       "body": [
         {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Name"
+        },
+        {
           "type": "Composite",
           "purpose": "describing",
           "items": [
@@ -69273,7 +69368,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 300,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7286,5958 8454,4638 8502,6302' /></svg>"
@@ -69284,6 +69379,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg22",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Unknown"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69311,6 +69411,11 @@ module.exports={
       "type": "Annotation",
       "body": [
         {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Impossible"
+        },
+        {
           "type": "Composite",
           "purpose": "describing",
           "items": [
@@ -69331,7 +69436,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 10,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='8502,6302 9694,4710 10134,6254' /></svg>"
@@ -69342,6 +69447,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg24",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Singing"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69387,6 +69497,11 @@ module.exports={
       "type": "Annotation",
       "body": [
         {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Mirror"
+        },
+        {
           "type": "Composite",
           "purpose": "describing",
           "items": [
@@ -69401,7 +69516,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 166,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='10134,6254 11934,5118 11774,6749' /></svg>"
@@ -69412,6 +69527,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg26",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Summer"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69427,7 +69547,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 261,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='11774,6749 11934,5118 12710,5926 12702,6254' /></svg>"
@@ -69438,6 +69558,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg27",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Ice cream"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69465,7 +69590,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 340,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='291,4864 1363,5636 907,7404 331,6440' /></svg>"
@@ -69476,6 +69601,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg28",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Wave"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69509,7 +69639,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 227,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='907,7400 1363,5636 2559,7124' /></svg>"
@@ -69520,6 +69650,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg29",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Dream"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69535,7 +69670,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 128,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2563,7112 1367,5640 2883,5436' /></svg>"
@@ -69546,6 +69681,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg30",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "999"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69573,7 +69713,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 200,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2567,7116 2887,5428 3827,6532' /></svg>"
@@ -69584,6 +69724,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg31",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Lift"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69617,7 +69762,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 196,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='3819,6512 4191,5096 4819,7188' /></svg>"
@@ -69628,6 +69773,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg32",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Same place"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69649,7 +69799,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 102,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='4819,7188 4191,5100 5799,5880' /></svg>"
@@ -69660,6 +69810,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg33",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Heartbeat"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69675,7 +69830,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 232,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='4819,7188 5795,5892 6339,7080' /></svg>"
@@ -69686,6 +69841,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg35",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Alarm"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69701,7 +69861,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 18,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='6339,7072 7294,5960 7426,7432' /></svg>"
@@ -69712,6 +69872,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg36",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Wine"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69733,7 +69898,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 314,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7426,7432 7306,5968 8506,6308' /></svg>"
@@ -69761,6 +69926,11 @@ module.exports={
       "type": "Annotation",
       "body": [
         {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Eyelashes"
+        },
+        {
           "type": "Composite",
           "purpose": "describing",
           "items": [
@@ -69781,7 +69951,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 220,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='8642,7644 8502,6304 10142,6256' /></svg>"
@@ -69792,6 +69962,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg39",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Snore"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69819,7 +69994,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 263,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='8638,7652 10146,6260 10438,8312' /></svg>"
@@ -69830,6 +70005,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg40",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Envelope"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69851,7 +70031,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 210,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='10442,8320 10146,6264 11786,6764' /></svg>"
@@ -69862,6 +70042,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg41",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Hands"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69895,6 +70080,11 @@ module.exports={
       "type": "Annotation",
       "body": [
         {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Sea"
+        },
+        {
           "type": "Composite",
           "purpose": "describing",
           "items": [
@@ -69915,7 +70105,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 128,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='387,8752 915,7400 2047,8728' /></svg>"
@@ -69926,6 +70116,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg43",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Paralysis"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69953,7 +70148,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 86,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='919,7396 2539,7124 2039,8720' /></svg>"
@@ -69964,6 +70159,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg44",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Dot"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -69997,7 +70197,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 254,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2049,8724 2523,7160 3875,8180' /></svg>"
@@ -70008,6 +70208,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg45",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Always on"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -70035,7 +70240,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 80,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2523,7136 3815,6532 3883,8184' /></svg>"
@@ -70046,6 +70251,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg46",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Cookies"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -70073,7 +70283,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 137,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='3883,8184 3815,6532 4815,7188' /></svg>"
@@ -70084,6 +70294,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg48",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Overachiever"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -70111,7 +70326,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 230,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='5719,8920 6347,7096 6732,8312' /></svg>"
@@ -70122,6 +70337,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg49",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Football"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -70149,7 +70369,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 243,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='5719,8916 4823,7196 6343,7084' /></svg>"
@@ -70160,6 +70380,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg50",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Spider"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -70199,7 +70424,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 262,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='6347,7080 7434,7436 6738,8304' /></svg>"
@@ -70210,6 +70435,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg53",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "90°"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -70249,6 +70479,11 @@ module.exports={
       "type": "Annotation",
       "body": [
         {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Rewrite"
+        },
+        {
           "type": "Composite",
           "purpose": "describing",
           "items": [
@@ -70269,7 +70504,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 64,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='8862,10064 8642,7656 10442,8320 9558,10064' /></svg>"
@@ -70280,6 +70515,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg56",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Lucid"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -70307,7 +70547,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 297,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='11362,10128 10446,8308 12778,8860' /></svg>"
@@ -70318,6 +70558,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg57",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Housefire"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -70351,7 +70596,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 40,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='371,8768 2055,8736 1263,10084' /></svg>"
@@ -70362,6 +70607,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg58",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Duvet"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -70383,7 +70633,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 29,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='1263,10100 2051,8744 2699,9816' /></svg>"
@@ -70394,6 +70644,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg60",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Cycling"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -70421,7 +70676,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 134,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2703,9816 3875,8176 4019,10048' /></svg>"
@@ -70432,6 +70687,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg61",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Pacing"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -70459,7 +70719,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 313,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='4023,10056 3887,8176 5715,8928' /></svg>"
@@ -70470,6 +70730,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg63",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Wrist"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -70503,6 +70768,11 @@ module.exports={
       "type": "Annotation",
       "body": [
         {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Touring"
+        },
+        {
           "type": "Composite",
           "purpose": "describing",
           "items": [
@@ -70523,7 +70793,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 247,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='6423,10040 6738,8316 7838,8984 7050,10060' /></svg>"
@@ -70534,6 +70804,11 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg65",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Window"
+        },
         {
           "type": "Composite",
           "purpose": "describing",
@@ -70567,7 +70842,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 20,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7050,10060 7846,8980 8794,10064' /></svg>"
