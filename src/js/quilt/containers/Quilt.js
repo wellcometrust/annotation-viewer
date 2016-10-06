@@ -20,7 +20,7 @@ import NavItem from '../components/NavItem';
 import NavButton from '../components/NavButton';
 
 import { toggleInfoPanel, closeInfoPanel, openInfoPanel } from '../redux/actions/infoActions';
-import { startJourney, journeyNext, journeyPrev, stopJourney, startJourneyAt, toggleDetails } from '../redux/actions/journeyActions';
+import { startJourney, journeyNext, journeyPrev, stopJourney, startJourneyAt, toggleDetails, journeyReady } from '../redux/actions/journeyActions';
 
 class Quilt extends Component {
 
@@ -51,7 +51,7 @@ class Quilt extends Component {
         );
       });
       // Move annotation into focus.
-      if (item) {
+      if (item && item !== -1) {
         dispatch(startJourneyAt(item, annotation_items.length));
       }
     }

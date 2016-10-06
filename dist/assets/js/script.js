@@ -5152,7 +5152,7 @@ $.EventSource.prototype = {
             touchCount = event.changedTouches.length,
             gPoints = [],
             pointsList = tracker.getActivePointersListByType( 'touch' );
-        
+
         abortTouchContacts( tracker, event, pointsList );
     }
 
@@ -6208,7 +6208,7 @@ $.EventSource.prototype = {
             } );
         }
     }
-    
+
     // True if inside an iframe, otherwise false.
     // @member {Boolean} isInIframe
     // @private
@@ -6220,7 +6220,7 @@ $.EventSource.prototype = {
             return true;
         }
     })();
- 
+
     // @function
     // @private
     // @inner
@@ -12027,11 +12027,11 @@ $.IIIFTileSource = function( options ){
             options.tileSize = shortDim;
         }
     } else if (this.sizes && this.sizes.length > 0) {
-        // This info.json can't be tiled, but we can still construct a legacy pyramid from the sizes array. 
-        // In this mode, IIIFTileSource will call functions from the abstract baseTileSource or the 
-        // LegacyTileSource instead of performing IIIF tiling.      
+        // This info.json can't be tiled, but we can still construct a legacy pyramid from the sizes array.
+        // In this mode, IIIFTileSource will call functions from the abstract baseTileSource or the
+        // LegacyTileSource instead of performing IIIF tiling.
         this.emulateLegacyImagePyramid = true;
-        
+
         options.levels = constructLevels( this );
         // use the largest available size to define tiles
         $.extend( true, options, {
@@ -12066,7 +12066,7 @@ $.extend( $.IIIFTileSource.prototype, $.TileSource.prototype, /** @lends OpenSea
      * @param {Object|Array} data
      * @param {String} optional - url
      */
-     
+
     supports: function( data, url ) {
         // Version 2.0 and forwards
         if (data.protocol && data.protocol == 'http://iiif.io/api/image') {
@@ -20877,6 +20877,7 @@ $.extend( $.World.prototype, $.EventSource.prototype, /** @lends OpenSeadragon.W
 });
 
 }( OpenSeadragon ));
+
 
 
 },{}],2:[function(require,module,exports){
@@ -65505,7 +65506,7 @@ function mapStateToProps(store) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Bedlam);
 
-},{"../../Util":212,"../../redux/actions/annotationActions":253,"../../redux/actions/bookActions":254,"../../redux/actions/staticAnnotationActions":255,"../../redux/actions/viewerActions":256,"../components/PageTitle":214,"../components/PlayerImage":215,"../components/SliderControl":217,"../components/Trackpad":218,"../components/ZoomControl":219,"hammerjs":29,"lodash":36,"react":199,"react-redux":52}],221:[function(require,module,exports){
+},{"../../Util":212,"../../redux/actions/annotationActions":254,"../../redux/actions/bookActions":255,"../../redux/actions/staticAnnotationActions":256,"../../redux/actions/viewerActions":257,"../components/PageTitle":214,"../components/PlayerImage":215,"../components/SliderControl":217,"../components/Trackpad":218,"../components/ZoomControl":219,"hammerjs":29,"lodash":36,"react":199,"react-redux":52}],221:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -65733,7 +65734,7 @@ function mapStateToProps(store) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(App);
 
-},{"../../redux/actions/annotationActions":253,"../../redux/actions/bookActions":254,"../../redux/actions/viewerActions":256,"react":199,"react-redux":52}],222:[function(require,module,exports){
+},{"../../redux/actions/annotationActions":254,"../../redux/actions/bookActions":255,"../../redux/actions/viewerActions":257,"react":199,"react-redux":52}],222:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -66012,7 +66013,7 @@ function mapStateToProps(store) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(MidFi);
 
-},{"../../Util":212,"../../redux/actions/annotationActions":253,"../../redux/actions/bookActions":254,"../../redux/actions/viewerActions":256,"../components/PageTitle":214,"../components/PlayerImage":215,"../components/SliderControl":217,"../components/Trackpad":218,"../components/ZoomControl":219,"hammerjs":29,"lodash":36,"react":199,"react-redux":52}],223:[function(require,module,exports){
+},{"../../Util":212,"../../redux/actions/annotationActions":254,"../../redux/actions/bookActions":255,"../../redux/actions/viewerActions":257,"../components/PageTitle":214,"../components/PlayerImage":215,"../components/SliderControl":217,"../components/Trackpad":218,"../components/ZoomControl":219,"hammerjs":29,"lodash":36,"react":199,"react-redux":52}],223:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -66209,7 +66210,7 @@ function mapStateToProps(store) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Navigation);
 
-},{"../../redux/actions/annotationActions":253,"../../redux/actions/bookActions":254,"../../redux/actions/viewerActions":256,"react":199,"react-redux":52}],224:[function(require,module,exports){
+},{"../../redux/actions/annotationActions":254,"../../redux/actions/bookActions":255,"../../redux/actions/viewerActions":257,"react":199,"react-redux":52}],224:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -66398,7 +66399,7 @@ function mapStateToProps(store) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Slider);
 
-},{"../../redux/actions/annotationActions":253,"../../redux/actions/bookActions":254,"../../redux/actions/viewerActions":256,"../components/SliderControl":217,"react":199,"react-redux":52}],225:[function(require,module,exports){
+},{"../../redux/actions/annotationActions":254,"../../redux/actions/bookActions":255,"../../redux/actions/viewerActions":257,"../components/SliderControl":217,"react":199,"react-redux":52}],225:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -66500,7 +66501,7 @@ function mapStateToProps(store) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Zoom);
 
-},{"../../redux/actions/annotationActions":253,"../../redux/actions/bookActions":254,"../../redux/actions/viewerActions":256,"../components/ZoomControl":219,"react":199,"react-redux":52}],226:[function(require,module,exports){
+},{"../../redux/actions/annotationActions":254,"../../redux/actions/bookActions":255,"../../redux/actions/viewerActions":257,"../components/ZoomControl":219,"react":199,"react-redux":52}],226:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -66549,7 +66550,7 @@ app.dispatch(_library.library.checkOut(window.current_book || 'Inferno', true));
 app.mountTo(document.getElementById('drawer'));
 
 }).call(this,require('_process'))
-},{"../wellcome/Wellcome":267,"./View":213,"./library":227,"./redux/createStore":228,"OpenSeadragon":1,"_process":39,"whatwg-fetch":211}],227:[function(require,module,exports){
+},{"../wellcome/Wellcome":268,"./View":213,"./library":227,"./redux/createStore":228,"OpenSeadragon":1,"_process":39,"whatwg-fetch":211}],227:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -66597,7 +66598,7 @@ var library = exports.library = new _Librarian2.default({
 
 });
 
-},{"../wellcome/Librarian":265,"./components/Quill":216}],228:[function(require,module,exports){
+},{"../wellcome/Librarian":266,"./components/Quill":216}],228:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -66734,7 +66735,7 @@ var analytics = exports.analytics = function analytics(store) {
 };
 
 }).call(this,require('_process'))
-},{"../../../redux/actions/bookActions":254,"../../../redux/actions/staticAnnotationActions":255,"../../../wellcome/TrackingSchema":266,"_process":39,"react-ga":42}],230:[function(require,module,exports){
+},{"../../../redux/actions/bookActions":255,"../../../redux/actions/staticAnnotationActions":256,"../../../wellcome/TrackingSchema":267,"_process":39,"react-ga":42}],230:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -66779,7 +66780,7 @@ Object.defineProperty(exports, 'book', {
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-},{"../../redux/reducers/annotationReducer":257,"../../redux/reducers/bookReducer":258,"../../redux/reducers/staticAnnotationReducer":259,"../../redux/reducers/viewerReducer":260}],231:[function(require,module,exports){
+},{"../../redux/reducers/annotationReducer":258,"../../redux/reducers/bookReducer":259,"../../redux/reducers/staticAnnotationReducer":260,"../../redux/reducers/viewerReducer":261}],231:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -67668,7 +67669,7 @@ function mapStateToProps(store) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Debug);
 
-},{"../../redux/actions/annotationActions":253,"../../redux/actions/viewerActions":256,"../components/Composite":235,"lodash":36,"react":199,"react-redux":52}],244:[function(require,module,exports){
+},{"../../redux/actions/annotationActions":254,"../../redux/actions/viewerActions":257,"../components/Composite":235,"lodash":36,"react":199,"react-redux":52}],244:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -67784,7 +67785,7 @@ var Quilt = function (_Component) {
             return (0, _annotationActions.pnpoly)([Math.round(position.x), Math.round(position.y)], i.target.vector);
           });
           // Move annotation into focus.
-          if (item) {
+          if (item && item !== -1) {
             dispatch((0, _journeyActions.startJourneyAt)(item, annotation_items.length));
           }
         })();
@@ -67947,7 +67948,7 @@ function mapStateToProps(store) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Quilt);
 
-},{"../../Util":212,"../../redux/actions/annotationActions":253,"../../redux/actions/viewerActions":256,"../components/AnnotationPanel":233,"../components/CloseButton":234,"../components/Composite":235,"../components/InfoButton":237,"../components/InfoPanel":238,"../components/NavBar":239,"../components/NavButton":240,"../components/NavItem":241,"../redux/actions/infoActions":246,"../redux/actions/journeyActions":247,"classnames":3,"lodash":36,"react":199,"react-redux":52}],245:[function(require,module,exports){
+},{"../../Util":212,"../../redux/actions/annotationActions":254,"../../redux/actions/viewerActions":257,"../components/AnnotationPanel":233,"../components/CloseButton":234,"../components/Composite":235,"../components/InfoButton":237,"../components/InfoPanel":238,"../components/NavBar":239,"../components/NavButton":240,"../components/NavItem":241,"../redux/actions/infoActions":246,"../redux/actions/journeyActions":247,"classnames":3,"lodash":36,"react":199,"react-redux":52}],245:[function(require,module,exports){
 'use strict';
 
 require('OpenSeadragon');
@@ -67972,8 +67973,12 @@ var _createStore = require('./redux/createStore');
 
 var _createStore2 = _interopRequireDefault(_createStore);
 
+var _journeyActions = require('./redux/actions/journeyActions');
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+/* global OpenSeadragon */
+/* eslint new-cap: 0 */
 var app = new _Wellcome2.default('https://accelerator.dlcs.io/dlcs/4/21/quilt/info.json', OpenSeadragon({
   id: 'player',
   defaultZoomLevel: 0,
@@ -67992,8 +67997,6 @@ var app = new _Wellcome2.default('https://accelerator.dlcs.io/dlcs/4/21/quilt/in
 }), _createStore2.default, _View2.default);
 
 // Import annotations
-/* global OpenSeadragon */
-/* eslint new-cap: 0 */
 app.dispatch((0, _annotationActions.importW3cAnnotations)(_w3annotations2.default.items));
 
 // Render the image.
@@ -68002,7 +68005,12 @@ app.renderImage();
 // Mount to screen.
 app.mountTo(document.getElementById('drawer'));
 
-},{"../redux/actions/annotationActions":253,"../wellcome/Wellcome":267,"./View":232,"./redux/createStore":248,"./w3annotations.json":252,"OpenSeadragon":1,"whatwg-fetch":211}],246:[function(require,module,exports){
+// Ready state.
+setTimeout(function () {
+  return app.dispatch((0, _journeyActions.journeyReady)());
+}, 2000);
+
+},{"../redux/actions/annotationActions":254,"../wellcome/Wellcome":268,"./View":232,"./redux/actions/journeyActions":247,"./redux/createStore":248,"./w3annotations.json":253,"OpenSeadragon":1,"whatwg-fetch":211}],246:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -68036,6 +68044,7 @@ var JOURNEY_GO_TO = exports.JOURNEY_GO_TO = 'JOURNEY_GO_TO';
 var JOURNEY_DETAIL_OPEN = exports.JOURNEY_DETAIL_OPEN = 'JOURNEY_DETAIL_OPEN';
 var JOURNEY_DETAIL_CLOSE = exports.JOURNEY_DETAIL_CLOSE = 'JOURNEY_DETAIL_CLOSE';
 var JOURNEY_DETAIL_TOGGLE = exports.JOURNEY_DETAIL_TOGGLE = 'JOURNEY_DETAIL_TOGGLE';
+var JOURNEY_READY = exports.JOURNEY_READY = 'JOURNEY_READY';
 
 var startJourney = exports.startJourney = function startJourney(totalItems) {
   return { type: JOURNEY_START, payload: { totalItems: totalItems } };
@@ -68064,6 +68073,9 @@ var journeyNext = exports.journeyNext = function journeyNext() {
 var journeyPrev = exports.journeyPrev = function journeyPrev() {
   return { type: JOURNEY_PREV };
 };
+var journeyReady = exports.journeyReady = function journeyReady() {
+  return { type: JOURNEY_READY };
+};
 
 },{}],248:[function(require,module,exports){
 (function (process){
@@ -68079,6 +68091,8 @@ var _redux = require('redux');
 var _reduxThunk = require('redux-thunk');
 
 var _reduxThunk2 = _interopRequireDefault(_reduxThunk);
+
+var _routing = require('./middleware/routing');
 
 var _reducers = require('./reducers');
 
@@ -68101,12 +68115,81 @@ var logger = function logger(store) {
 };
 
 function store(viewer) {
-  var middleware = [_reduxThunk2.default.withExtraArgument(viewer), logger];
+  var middleware = [_reduxThunk2.default.withExtraArgument(viewer), logger, _routing.routing];
   return (0, _redux.createStore)((0, _redux.combineReducers)(reducers), _redux.applyMiddleware.apply(undefined, middleware));
 }
 
 }).call(this,require('_process'))
-},{"./reducers":249,"_process":39,"redux":206,"redux-thunk":200}],249:[function(require,module,exports){
+},{"./middleware/routing":249,"./reducers":250,"_process":39,"redux":206,"redux-thunk":200}],249:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.routing = undefined;
+
+var _journeyActions = require('../../redux/actions/journeyActions');
+
+var _viewerActions = require('../../../redux/actions/viewerActions');
+
+function push(hash) {
+  console.info(hash);
+
+  if (history.pushState) {
+    history.pushState(null, null, '#' + hash);
+  } else {
+    location.hash = '#' + hash;
+  }
+}
+
+function getHash() {
+  if (window.location.hash) {
+    return parseInt(window.location.hash.substring(1), 10);
+  }
+}
+
+var routing = exports.routing = function routing(store) {
+  return function (next) {
+    return function (action) {
+      var state = store.getState().journey;
+      var anno_state = store.getState().annotations;
+      // You can expand the tracking here, you can listen to any event in the application.
+      switch (action.type) {
+
+        case _viewerActions.IMAGE_READY_STATE:
+          console.info('hereererer');
+          break;
+
+        case _journeyActions.JOURNEY_READY:
+          var hash = getHash();
+          if (hash && hash != -1 && anno_state.items[hash]) {
+            store.dispatch((0, _journeyActions.startJourneyAt)(hash, anno_state.items.length));
+          }
+          break;
+
+        case _journeyActions.JOURNEY_GO_TO:
+          push(action.payload.index);
+          break;
+
+        case _journeyActions.JOURNEY_NEXT:
+          push(state.isActive ? state.currentIndex === state.totalItems - 1 ? 0 : state.currentIndex + 1 : null);
+          break;
+
+        case _journeyActions.JOURNEY_PREV:
+          push(state.isActive ? state.currentIndex === 0 ? 0 : state.currentIndex - 1 : null);
+          break;
+
+        case _journeyActions.JOURNEY_START:
+          push(action.payload.startAt || 0);
+          break;
+
+      }
+      return next(action);
+    };
+  };
+};
+
+},{"../../../redux/actions/viewerActions":257,"../../redux/actions/journeyActions":247}],250:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -68151,7 +68234,7 @@ Object.defineProperty(exports, 'journey', {
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-},{"../../redux/reducers/annotationReducer":257,"../../redux/reducers/viewerReducer":260,"./reducers/infoReducer":250,"./reducers/journeyReducer":251}],250:[function(require,module,exports){
+},{"../../redux/reducers/annotationReducer":258,"../../redux/reducers/viewerReducer":261,"./reducers/infoReducer":251,"./reducers/journeyReducer":252}],251:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -68192,7 +68275,7 @@ function infoReducer() {
   return state;
 }
 
-},{"../actions/infoActions":246}],251:[function(require,module,exports){
+},{"../actions/infoActions":246}],252:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -68259,7 +68342,7 @@ function journeyReducer() {
   return state;
 }
 
-},{"../actions/journeyActions":247}],252:[function(require,module,exports){
+},{"../actions/journeyActions":247}],253:[function(require,module,exports){
 module.exports={
   "@context": [
     "http://www.w3.org/ns/anno.jsonld",
@@ -70852,7 +70935,7 @@ module.exports={
   ]
 }
 
-},{}],253:[function(require,module,exports){
+},{}],254:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -71052,7 +71135,7 @@ var importW3cAnnotations = exports.importW3cAnnotations = function importW3cAnno
   };
 };
 
-},{"point-in-svg-polygon":38}],254:[function(require,module,exports){
+},{"point-in-svg-polygon":38}],255:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -71247,7 +71330,7 @@ function resetAfterSeconds(seconds) {
   };
 }
 
-},{"./viewerActions":256,"lodash":36}],255:[function(require,module,exports){
+},{"./viewerActions":257,"lodash":36}],256:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -71291,7 +71374,7 @@ function addBookCaption(item) {
   return { type: ADD_STATIC_CAPTION, payload: item };
 }
 
-},{}],256:[function(require,module,exports){
+},{}],257:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -71556,7 +71639,7 @@ var goTo = exports.goTo = function goTo(x, y, zoom) {
   };
 };
 
-},{"../../lib/openseadragon-svg":231,"OpenseaDragon":2}],257:[function(require,module,exports){
+},{"../../lib/openseadragon-svg":231,"OpenseaDragon":2}],258:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -71649,7 +71732,7 @@ function annotationReducer() {
   }
 }
 
-},{"../actions/annotationActions":253}],258:[function(require,module,exports){
+},{"../actions/annotationActions":254}],259:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -71699,7 +71782,7 @@ function bookReducer() {
   }
 }
 
-},{"../actions/bookActions":254}],259:[function(require,module,exports){
+},{"../actions/bookActions":255}],260:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -71753,7 +71836,7 @@ function staticAnnotationReducer() {
   }
 }
 
-},{"../actions/bookActions":254,"../actions/staticAnnotationActions":255}],260:[function(require,module,exports){
+},{"../actions/bookActions":255,"../actions/staticAnnotationActions":256}],261:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -71869,7 +71952,7 @@ function viewerReducer() {
   }
 }
 
-},{"../actions/viewerActions":256}],261:[function(require,module,exports){
+},{"../actions/viewerActions":257}],262:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -71887,7 +71970,7 @@ switch (window.wellcome_application) {
 }
 
 }).call(this,require('_process'))
-},{"./bedlam":226,"./quilt":245,"_process":39}],262:[function(require,module,exports){
+},{"./bedlam":226,"./quilt":245,"_process":39}],263:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -71935,7 +72018,7 @@ var AnnotationHandler = function () {
 
 exports.default = AnnotationHandler;
 
-},{}],263:[function(require,module,exports){
+},{}],264:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -72118,7 +72201,7 @@ function createBook(url) {
   });
 }
 
-},{}],264:[function(require,module,exports){
+},{}],265:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -72194,7 +72277,7 @@ function createImageBook(pages) {
   return new ImageBook(pages);
 }
 
-},{}],265:[function(require,module,exports){
+},{}],266:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -72357,7 +72440,7 @@ var Librarian = function () {
 
 exports.default = Librarian;
 
-},{"../redux/actions/bookActions":254,"../redux/actions/staticAnnotationActions":255,"./Book":263,"./ImageBook":264,"lodash":36}],266:[function(require,module,exports){
+},{"../redux/actions/bookActions":255,"../redux/actions/staticAnnotationActions":256,"./Book":264,"./ImageBook":265,"lodash":36}],267:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -72466,7 +72549,7 @@ var TrackingSchema = function () {
 
 exports.default = TrackingSchema;
 
-},{}],267:[function(require,module,exports){
+},{}],268:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -72566,4 +72649,4 @@ var Wellcome = function () {
 
 exports.default = Wellcome;
 
-},{"../redux/actions/viewerActions":256,"./AnnotationHandler":262}]},{},[261]);
+},{"../redux/actions/viewerActions":257,"./AnnotationHandler":263}]},{},[262]);
