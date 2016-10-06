@@ -68133,8 +68133,6 @@ var _journeyActions = require('../../redux/actions/journeyActions');
 var _viewerActions = require('../../../redux/actions/viewerActions');
 
 function push(hash) {
-  console.info(hash);
-
   if (history.pushState) {
     history.pushState(null, null, '#' + hash);
   } else {
@@ -68155,11 +68153,6 @@ var routing = exports.routing = function routing(store) {
       var anno_state = store.getState().annotations;
       // You can expand the tracking here, you can listen to any event in the application.
       switch (action.type) {
-
-        case _viewerActions.IMAGE_READY_STATE:
-          console.info('hereererer');
-          break;
-
         case _journeyActions.JOURNEY_READY:
           var hash = getHash();
           if (hash && hash != -1 && anno_state.items[hash]) {
