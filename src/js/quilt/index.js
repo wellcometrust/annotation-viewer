@@ -9,7 +9,7 @@ import { importW3cAnnotations } from '../redux/actions/annotationActions';
 import createStore from './redux/createStore';
 
 const app = new Wellcome(
-    'https://dlcs.io/iiif-img/4/21/quilt/info.json',
+    'https://accelerator.dlcs.io/dlcs/4/21/quilt/info.json',
     OpenSeadragon({
       id: 'player',
       defaultZoomLevel: 0,
