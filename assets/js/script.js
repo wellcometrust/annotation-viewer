@@ -67895,6 +67895,13 @@ var Quilt = function (_Component) {
             ),
             _react2.default.createElement(
               _NavItem2.default,
+              { onClick: function onClick() {
+                  return dispatch((0, _viewerActions.rotateBy)(45));
+                }, style: { display: window.innerWidth < 640 ? 'none' : 'block' }, align: 'left', type: 'text' },
+              'Rotate'
+            ),
+            _react2.default.createElement(
+              _NavItem2.default,
               { align: 'right', type: 'prev', onClick: function onClick() {
                   return _this2.next();
                 } },
@@ -71567,7 +71574,7 @@ var rotateTo = exports.rotateTo = function rotateTo(degrees) {
 var rotateBy = exports.rotateBy = function rotateBy(degrees) {
   return function (dispatch, state, player) {
     // Not found a use case for this, but works.
-    player.viewport.setRotation(degrees);
+    player.viewport.setRotation((state().viewer.rotation + degrees) % 360);
     dispatch({ type: ROTATE_BY, payload: { degrees: degrees } });
   };
 };
