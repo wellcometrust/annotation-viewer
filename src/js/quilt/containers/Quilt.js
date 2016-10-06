@@ -5,7 +5,7 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
 import { connect } from 'react-redux';
-import { rotateTo, goTo, goToRect, zoomBy } from '../../redux/actions/viewerActions';
+import { rotateTo, goTo, goToRect, zoomBy, rotateBy } from '../../redux/actions/viewerActions';
 import { setActiveAnnotation, pnpoly } from '../../redux/actions/annotationActions';
 import Composite from '../components/Composite';
 import { getPath } from '../../Util';
@@ -103,6 +103,7 @@ class Quilt extends Component {
                 </AnnotationPanel>
                 <NavBar>
                   <NavItem align="left" type="text">{ currentIndex + 1 } of { totalItems }</NavItem>
+                  <NavItem onClick={() => dispatch(rotateBy(45))} style={{ display: window.innerWidth < 640 ? 'none' : 'block' }} align="left" type="text">Rotate</NavItem>
                   <NavItem align="right" type="prev" onClick={ () => this.next() }>
                     <img height="30" src={ getPath('img/right-black.svg') } />
                   </NavItem>
