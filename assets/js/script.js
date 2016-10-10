@@ -69379,7 +69379,7 @@ module.exports={
         {
           "type": "TextualBody",
           "purpose": "naming",
-          "value": "Football"
+          "value": "Physician"
         },
         {
           "type": "Composite",
@@ -69387,20 +69387,26 @@ module.exports={
           "items": [
             {
               "type": "TextualBody",
-              "value": "I woke up to a loud bang and it was sister kicking a football around in her sleep."
+              "value": "Physician sleep thyself. Healing sleep. Sleep healing. My relationship with sleep is paradoxical and tenuous. Narcolept by day. Insomniac by night."
             }
           ]
         },
         {
           "type": "TextualBody",
           "purpose": "tagging",
-          "value": "Other people",
+          "value": "Insomnia",
+          "creator": "Jenn"
+        },
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Insomnia",
           "creator": "Russell"
         },
         {
           "type": "TextualBody",
           "purpose": "tagging",
-          "value": "Sleep walking",
+          "value": "Medicine",
           "creator": "Russell"
         }
       ],
@@ -69568,7 +69574,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 180,
+        "sc:naturalAngle": 168,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='10134,6254 9694,4710 11934,5118' /></svg>"
@@ -69599,7 +69605,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 166,
+        "sc:naturalAngle": 108,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='10134,6254 11934,5118 11774,6749' /></svg>"
