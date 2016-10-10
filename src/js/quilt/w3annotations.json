@@ -1034,7 +1034,7 @@
         {
           "type": "TextualBody",
           "purpose": "naming",
-          "value": "Football"
+          "value": "Physician"
         },
         {
           "type": "Composite",
@@ -1042,20 +1042,26 @@
           "items": [
             {
               "type": "TextualBody",
-              "value": "I woke up to a loud bang and it was sister kicking a football around in her sleep."
+              "value": "Physician sleep thyself. Healing sleep. Sleep healing. My relationship with sleep is paradoxical and tenuous. Narcolept by day. Insomniac by night."
             }
           ]
         },
         {
           "type": "TextualBody",
           "purpose": "tagging",
-          "value": "Other people",
+          "value": "Insomnia",
+          "creator": "Jenn"
+        },
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Insomnia",
           "creator": "Russell"
         },
         {
           "type": "TextualBody",
           "purpose": "tagging",
-          "value": "Sleep walking",
+          "value": "Medicine",
           "creator": "Russell"
         }
       ],
