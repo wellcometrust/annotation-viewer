@@ -1223,7 +1223,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 180,
+        "sc:naturalAngle": 168,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='10134,6254 9694,4710 11934,5118' /></svg>"
@@ -1254,7 +1254,7 @@
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 166,
+        "sc:naturalAngle": 108,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='10134,6254 11934,5118 11774,6749' /></svg>"
