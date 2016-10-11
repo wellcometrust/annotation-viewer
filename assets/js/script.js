@@ -69046,7 +69046,7 @@ module.exports={
         {
           "type": "TextualBody",
           "purpose": "naming",
-          "value": "Tyres"
+          "value": "Window"
         },
         {
           "type": "Composite",
@@ -69054,14 +69054,26 @@ module.exports={
           "items": [
             {
               "type": "TextualBody",
-              "value": "As a child, I would dream of big - really big - tyres coming towards me. At the same time, I got smaller and the bedroom window got further away. This would presage a childhood illness such as chickenpox."
+              "value": "When I can't sleep, I like to leave the window open and look outside. I wish I could see the moon more despite living in the city."
             }
           ]
         },
         {
           "type": "TextualBody",
           "purpose": "tagging",
-          "value": "Medicine",
+          "value": "Urban",
+          "creator": "Jenn"
+        },
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Moon",
+          "creator": "Jenn"
+        },
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Insomnia",
           "creator": "Russell"
         }
       ],
@@ -69174,7 +69186,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 277,
+        "sc:naturalAngle": 90,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7890,2888 8842,2900 8450,4644' /></svg>"
@@ -69414,7 +69426,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 260,
+        "sc:naturalAngle": 170,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7286,5958 7110,4366 8454,4638' /></svg>"
@@ -69457,7 +69469,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 300,
+        "sc:naturalAngle": 120,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7286,5958 8454,4638 8502,6302' /></svg>"
@@ -69525,7 +69537,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 10,
+        "sc:naturalAngle": 190,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='8502,6302 9694,4710 10134,6254' /></svg>"
@@ -69998,6 +70010,27 @@ module.exports={
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg37",
       "type": "Annotation",
       "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Tyres"
+        },
+        {
+          "type": "Composite",
+          "purpose": "describing",
+          "items": [
+            {
+              "type": "TextualBody",
+              "value": "As a child, I would dream of big - really big - tyres coming towards me. At the same time, I got smaller and the bedroom window got further away. This would presage a childhood illness such as chickenpox."
+            }
+          ]
+        },
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Medicine",
+          "creator": "Russell"
+        }
       ],
       "target": {
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
@@ -70556,7 +70589,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 95,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='7842,8980 8638,7652 8826,10068 8790,10068' /></svg>"
@@ -70593,7 +70626,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 64,
+        "sc:naturalAngle": 247,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='8862,10064 8642,7656 10442,8320 9558,10064' /></svg>"
@@ -70765,7 +70798,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 134,
+        "sc:naturalAngle": 209,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='2703,9816 3875,8176 4019,10048' /></svg>"
@@ -70845,7 +70878,7 @@ module.exports={
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
         "within": "https://dlcs.io/iiif-img/4/21/quilt",
-        "sc:naturalAngle": 0,
+        "sc:naturalAngle": 180,
         "selector": {
           "type": "SvgSelector",
           "value": "<svg xmlns='http://www.w3.org/2000/svg'><polygon points='5715,8924 6734,8308 6411,10036' /></svg>"
@@ -70892,41 +70925,7 @@ module.exports={
     {
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg65",
       "type": "Annotation",
-      "body": [
-        {
-          "type": "TextualBody",
-          "purpose": "naming",
-          "value": "Window"
-        },
-        {
-          "type": "Composite",
-          "purpose": "describing",
-          "items": [
-            {
-              "type": "TextualBody",
-              "value": "When I can't sleep, I like to leave the window open and look outside. I wish I could see the moon more despite living in the city."
-            }
-          ]
-        },
-        {
-          "type": "TextualBody",
-          "purpose": "tagging",
-          "value": "Urban",
-          "creator": "Jenn"
-        },
-        {
-          "type": "TextualBody",
-          "purpose": "tagging",
-          "value": "Moon",
-          "creator": "Jenn"
-        },
-        {
-          "type": "TextualBody",
-          "purpose": "tagging",
-          "value": "Insomnia",
-          "creator": "Russell"
-        }
-      ],
+      "body": [],
       "target": {
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
