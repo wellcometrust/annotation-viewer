@@ -68701,7 +68701,7 @@ module.exports={
         {
           "type": "TextualBody",
           "purpose": "naming",
-          "value": "The golden girls"
+          "value": "The Golden Girls"
         },
         {
           "type": "Composite",
@@ -70925,7 +70925,13 @@ module.exports={
     {
       "id": "https://dlcs.io/iiif-img/4/21/quilt/annotation/svg65",
       "type": "Annotation",
-      "body": [],
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "naming",
+          "value": "Untitled"
+        }
+      ],
       "target": {
         "source": "https://dlcs.io/iiif-img/4/21/quilt/sequence/1/canvas/1",
         "type": "sc:Canvas",
