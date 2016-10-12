@@ -1,4 +1,5 @@
 process.env.__DEV__ = location.hostname === "localhost";
+require("babel-polyfill");
 
 switch (window.wellcome_application) {
   case 'bedlam':
