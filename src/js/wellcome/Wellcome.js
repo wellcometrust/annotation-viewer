@@ -40,7 +40,12 @@ export default class Wellcome {
 
   dispatch(...props) {
     return new Promise((r) => {
-      window.requestAnimationFrame(() => r(this.store.dispatch(...props)));
+      const frame = () => r(this.store.dispatch(...props));
+      if (window.requestAnimationFrame) {
+        requestAnimationFrame(frame);
+      } else {
+        setTimeout(frame, 16);
+      }
     });
   }
 

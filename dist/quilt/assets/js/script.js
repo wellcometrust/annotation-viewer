@@ -79387,11 +79387,16 @@ var Wellcome = function () {
       }
 
       return new Promise(function (r) {
-        window.requestAnimationFrame(function () {
+        var frame = function frame() {
           var _store;
 
           return r((_store = _this.store).dispatch.apply(_store, props));
-        });
+        };
+        if (window.requestAnimationFrame) {
+          requestAnimationFrame(frame);
+        } else {
+          setTimeout(frame, 16);
+        }
       });
     }
   }, {
