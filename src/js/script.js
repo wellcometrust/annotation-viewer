@@ -1,4 +1,5 @@
 process.env.__DEV__ = false;
+require("babel-polyfill");
 
 switch (window.wellcome_application) {
   case 'bedlam':
@@ -10,4 +11,3 @@ switch (window.wellcome_application) {
   default:
     console.error('unknown application');
 }
-
