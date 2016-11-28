@@ -72236,7 +72236,7 @@ function mapStateToProps(store) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Bedlam);
 
-},{"../../Util":520,"../../redux/actions/annotationActions":562,"../../redux/actions/bookActions":563,"../../redux/actions/staticAnnotationActions":564,"../../redux/actions/viewerActions":565,"../components/PageTitle":522,"../components/PlayerImage":523,"../components/SliderControl":525,"../components/Trackpad":526,"../components/ZoomControl":527,"hammerjs":322,"lodash":335,"react":506,"react-redux":477}],529:[function(require,module,exports){
+},{"../../Util":520,"../../redux/actions/annotationActions":563,"../../redux/actions/bookActions":564,"../../redux/actions/staticAnnotationActions":565,"../../redux/actions/viewerActions":566,"../components/PageTitle":522,"../components/PlayerImage":523,"../components/SliderControl":525,"../components/Trackpad":526,"../components/ZoomControl":527,"hammerjs":322,"lodash":335,"react":506,"react-redux":477}],529:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -72464,7 +72464,7 @@ function mapStateToProps(store) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(App);
 
-},{"../../redux/actions/annotationActions":562,"../../redux/actions/bookActions":563,"../../redux/actions/viewerActions":565,"react":506,"react-redux":477}],530:[function(require,module,exports){
+},{"../../redux/actions/annotationActions":563,"../../redux/actions/bookActions":564,"../../redux/actions/viewerActions":566,"react":506,"react-redux":477}],530:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -72741,7 +72741,7 @@ function mapStateToProps(store) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(MidFi);
 
-},{"../../Util":520,"../../redux/actions/annotationActions":562,"../../redux/actions/bookActions":563,"../../redux/actions/viewerActions":565,"../components/PageTitle":522,"../components/PlayerImage":523,"../components/SliderControl":525,"../components/Trackpad":526,"../components/ZoomControl":527,"hammerjs":322,"lodash":335,"react":506,"react-redux":477}],531:[function(require,module,exports){
+},{"../../Util":520,"../../redux/actions/annotationActions":563,"../../redux/actions/bookActions":564,"../../redux/actions/viewerActions":566,"../components/PageTitle":522,"../components/PlayerImage":523,"../components/SliderControl":525,"../components/Trackpad":526,"../components/ZoomControl":527,"hammerjs":322,"lodash":335,"react":506,"react-redux":477}],531:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -72938,7 +72938,7 @@ function mapStateToProps(store) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Navigation);
 
-},{"../../redux/actions/annotationActions":562,"../../redux/actions/bookActions":563,"../../redux/actions/viewerActions":565,"react":506,"react-redux":477}],532:[function(require,module,exports){
+},{"../../redux/actions/annotationActions":563,"../../redux/actions/bookActions":564,"../../redux/actions/viewerActions":566,"react":506,"react-redux":477}],532:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -73127,7 +73127,7 @@ function mapStateToProps(store) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Slider);
 
-},{"../../redux/actions/annotationActions":562,"../../redux/actions/bookActions":563,"../../redux/actions/viewerActions":565,"../components/SliderControl":525,"react":506,"react-redux":477}],533:[function(require,module,exports){
+},{"../../redux/actions/annotationActions":563,"../../redux/actions/bookActions":564,"../../redux/actions/viewerActions":566,"../components/SliderControl":525,"react":506,"react-redux":477}],533:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -73229,7 +73229,7 @@ function mapStateToProps(store) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Zoom);
 
-},{"../../redux/actions/annotationActions":562,"../../redux/actions/bookActions":563,"../../redux/actions/viewerActions":565,"../components/ZoomControl":527,"react":506,"react-redux":477}],534:[function(require,module,exports){
+},{"../../redux/actions/annotationActions":563,"../../redux/actions/bookActions":564,"../../redux/actions/viewerActions":566,"../components/ZoomControl":527,"react":506,"react-redux":477}],534:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -73278,7 +73278,7 @@ app.dispatch(_library.library.checkOut(window.current_book || 'Inferno', true));
 app.mountTo(document.getElementById('drawer'));
 
 }).call(this,require('_process'))
-},{"../wellcome/Wellcome":576,"./View":521,"./library":535,"./redux/createStore":536,"OpenSeadragon":1,"_process":338,"whatwg-fetch":519}],535:[function(require,module,exports){
+},{"../wellcome/Wellcome":577,"./View":521,"./library":535,"./redux/createStore":536,"OpenSeadragon":1,"_process":338,"whatwg-fetch":519}],535:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -73326,7 +73326,7 @@ var library = exports.library = new _Librarian2.default({
 
 });
 
-},{"../wellcome/Librarian":574,"./components/Quill":524}],536:[function(require,module,exports){
+},{"../wellcome/Librarian":575,"./components/Quill":524}],536:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -73411,6 +73411,7 @@ var ga = exports.ga = function ga(event) {
   }
   if (!Store.isInit) {
     Store.isInit = true;
+    _TrackingSchema2.default.setCategory('Bedlam Player');
     _reactGa2.default.initialize('UA-84672230-1');
   }
   return _reactGa2.default.event(event);
@@ -73463,7 +73464,7 @@ var analytics = exports.analytics = function analytics(store) {
 };
 
 }).call(this,require('_process'))
-},{"../../../redux/actions/bookActions":563,"../../../redux/actions/staticAnnotationActions":564,"../../../wellcome/TrackingSchema":575,"_process":338,"react-ga":467}],538:[function(require,module,exports){
+},{"../../../redux/actions/bookActions":564,"../../../redux/actions/staticAnnotationActions":565,"../../../wellcome/TrackingSchema":576,"_process":338,"react-ga":467}],538:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -73508,7 +73509,7 @@ Object.defineProperty(exports, 'book', {
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-},{"../../redux/reducers/annotationReducer":566,"../../redux/reducers/bookReducer":567,"../../redux/reducers/staticAnnotationReducer":568,"../../redux/reducers/viewerReducer":569}],539:[function(require,module,exports){
+},{"../../redux/reducers/annotationReducer":567,"../../redux/reducers/bookReducer":568,"../../redux/reducers/staticAnnotationReducer":569,"../../redux/reducers/viewerReducer":570}],539:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -74389,7 +74390,7 @@ function mapStateToProps(store) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Debug);
 
-},{"../../redux/actions/annotationActions":562,"../../redux/actions/viewerActions":565,"../components/Composite":543,"lodash":335,"react":506,"react-redux":477}],552:[function(require,module,exports){
+},{"../../redux/actions/annotationActions":563,"../../redux/actions/viewerActions":566,"../components/Composite":543,"lodash":335,"react":506,"react-redux":477}],552:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -74675,7 +74676,7 @@ function mapStateToProps(store) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Quilt);
 
-},{"../../Util":520,"../../redux/actions/annotationActions":562,"../../redux/actions/viewerActions":565,"../components/AnnotationPanel":541,"../components/CloseButton":542,"../components/Composite":543,"../components/InfoButton":545,"../components/InfoPanel":546,"../components/NavBar":547,"../components/NavButton":548,"../components/NavItem":549,"../redux/actions/infoActions":554,"../redux/actions/journeyActions":555,"classnames":4,"lodash":335,"react":506,"react-redux":477}],553:[function(require,module,exports){
+},{"../../Util":520,"../../redux/actions/annotationActions":563,"../../redux/actions/viewerActions":566,"../components/AnnotationPanel":541,"../components/CloseButton":542,"../components/Composite":543,"../components/InfoButton":545,"../components/InfoPanel":546,"../components/NavBar":547,"../components/NavButton":548,"../components/NavItem":549,"../redux/actions/infoActions":554,"../redux/actions/journeyActions":555,"classnames":4,"lodash":335,"react":506,"react-redux":477}],553:[function(require,module,exports){
 'use strict';
 
 require('OpenSeadragon');
@@ -74737,7 +74738,7 @@ setTimeout(function () {
   return app.dispatch((0, _journeyActions.journeyReady)());
 }, 2000);
 
-},{"../redux/actions/annotationActions":562,"../wellcome/Wellcome":576,"./View":540,"./redux/actions/journeyActions":555,"./redux/createStore":556,"./w3annotations.json":561,"OpenSeadragon":1,"whatwg-fetch":519}],554:[function(require,module,exports){
+},{"../redux/actions/annotationActions":563,"../wellcome/Wellcome":577,"./View":540,"./redux/actions/journeyActions":555,"./redux/createStore":556,"./w3annotations.json":562,"OpenSeadragon":1,"whatwg-fetch":519}],554:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -74821,6 +74822,8 @@ var _reduxThunk2 = _interopRequireDefault(_reduxThunk);
 
 var _routing = require('./middleware/routing');
 
+var _analytics = require('./middleware/analytics');
+
 var _reducers = require('./reducers');
 
 var reducers = _interopRequireWildcard(_reducers);
@@ -74828,6 +74831,11 @@ var reducers = _interopRequireWildcard(_reducers);
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+//   ############################################
+//  #  Change to false to disable GA tracking. #
+// ############################################
+var enableAnalytics = true;
 
 var logger = function logger(store) {
   return function (next) {
@@ -74843,11 +74851,110 @@ var logger = function logger(store) {
 
 function store(viewer) {
   var middleware = [_reduxThunk2.default.withExtraArgument(viewer), logger, _routing.routing];
+  if (enableAnalytics) {
+    middleware.push(_analytics.analytics);
+  }
   return (0, _redux.createStore)((0, _redux.combineReducers)(reducers), _redux.applyMiddleware.apply(undefined, middleware));
 }
 
 }).call(this,require('_process'))
-},{"./middleware/routing":557,"./reducers":558,"_process":338,"redux":513,"redux-thunk":507}],557:[function(require,module,exports){
+},{"./middleware/analytics":557,"./middleware/routing":558,"./reducers":559,"_process":338,"redux":513,"redux-thunk":507}],557:[function(require,module,exports){
+(function (process){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.analytics = exports.ga = undefined;
+
+var _reactGa = require('react-ga');
+
+var _reactGa2 = _interopRequireDefault(_reactGa);
+
+var _TrackingSchema = require('../../../wellcome/TrackingSchema');
+
+var _TrackingSchema2 = _interopRequireDefault(_TrackingSchema);
+
+var _journeyActions = require('../actions/journeyActions');
+
+var _viewerActions = require('../../../redux/actions/viewerActions');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } } /**
+                                                                                                                                                           * Analytic middleware.
+                                                                                                                                                           *
+                                                                                                                                                           * This middleware is currently tied to Quilt project.
+                                                                                                                                                           */
+
+var Store = function Store() {
+  _classCallCheck(this, Store);
+};
+
+Store.isInit = false;
+Store.prevAction = null;
+Store.prevId = null;
+Store.prevIndex = null;
+var ga = exports.ga = function ga(event) {
+  if (process.env.__DEV__) {
+    if (!event) {
+      console.warn('[GA] Empty Event', event);
+    }
+    return console.info('[GA]', event);
+  }
+  if (!Store.isInit) {
+    Store.isInit = true;
+    _TrackingSchema2.default.setCategory('Quilt');
+    _reactGa2.default.initialize('UA-55614-6');
+  }
+  if (event) {
+    return _reactGa2.default.event(event);
+  }
+};
+
+var analytics = exports.analytics = function analytics(store) {
+  return function (next) {
+    return function (action) {
+      // You can expand the tracking here, you can listen to any event in the application.
+      switch (action.type) {
+
+        case _journeyActions.JOURNEY_START:
+          // If journey was started via a click and not the same as current.
+          if (Store.prevAction === _viewerActions.WORLD_CLICK && Store.prevId !== action.payload.startAt) {
+            ga(_TrackingSchema2.default.uriEvent('Story click', window.location.href, action.payload.startAt));
+            Store.prevId = action.payload.startAt;
+          }
+          break;
+
+        case _journeyActions.JOURNEY_NEXT:
+          var previousIndex = store.getState().journey.currentIndex;
+          if (previousIndex && previousIndex !== Store.prevIndex) {
+            ga(_TrackingSchema2.default.uriEvent('Right scroll', window.location.href, previousIndex));
+            Store.prevIndex = previousIndex;
+          }
+          break;
+
+        case _journeyActions.JOURNEY_PREV:
+          if (store.getState().journey.currentIndex) {
+            ga(_TrackingSchema2.default.uriEvent('Left scroll', window.location.href, store.getState().journey.currentIndex));
+          }
+          break;
+
+        case _journeyActions.JOURNEY_EXIT:
+          ga(_TrackingSchema2.default.uriEvent('View full', window.location.href, store.getState().journey.currentIndex));
+          break;
+
+      }
+      // Store previous analytic action.
+      Store.prevAction = action.type;
+      // Continue.
+      return next(action);
+    };
+  };
+};
+
+}).call(this,require('_process'))
+},{"../../../redux/actions/viewerActions":566,"../../../wellcome/TrackingSchema":576,"../actions/journeyActions":555,"_process":338,"react-ga":467}],558:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -74909,7 +75016,7 @@ var routing = exports.routing = function routing(store) {
   };
 };
 
-},{"../../../redux/actions/viewerActions":565,"../../redux/actions/journeyActions":555}],558:[function(require,module,exports){
+},{"../../../redux/actions/viewerActions":566,"../../redux/actions/journeyActions":555}],559:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -74954,7 +75061,7 @@ Object.defineProperty(exports, 'journey', {
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-},{"../../redux/reducers/annotationReducer":566,"../../redux/reducers/viewerReducer":569,"./reducers/infoReducer":559,"./reducers/journeyReducer":560}],559:[function(require,module,exports){
+},{"../../redux/reducers/annotationReducer":567,"../../redux/reducers/viewerReducer":570,"./reducers/infoReducer":560,"./reducers/journeyReducer":561}],560:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -74995,7 +75102,7 @@ function infoReducer() {
   return state;
 }
 
-},{"../actions/infoActions":554}],560:[function(require,module,exports){
+},{"../actions/infoActions":554}],561:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -75062,7 +75169,7 @@ function journeyReducer() {
   return state;
 }
 
-},{"../actions/journeyActions":555}],561:[function(require,module,exports){
+},{"../actions/journeyActions":555}],562:[function(require,module,exports){
 module.exports={
   "@context": [
     "http://www.w3.org/ns/anno.jsonld",
@@ -77666,7 +77773,7 @@ module.exports={
   ]
 }
 
-},{}],562:[function(require,module,exports){
+},{}],563:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -77865,7 +77972,7 @@ var importW3cAnnotations = exports.importW3cAnnotations = function importW3cAnno
   };
 };
 
-},{"point-in-svg-polygon":337}],563:[function(require,module,exports){
+},{"point-in-svg-polygon":337}],564:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -78060,7 +78167,7 @@ function resetAfterSeconds(seconds) {
   };
 }
 
-},{"./viewerActions":565,"lodash":335}],564:[function(require,module,exports){
+},{"./viewerActions":566,"lodash":335}],565:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -78104,7 +78211,7 @@ function addBookCaption(item) {
   return { type: ADD_STATIC_CAPTION, payload: item };
 }
 
-},{}],565:[function(require,module,exports){
+},{}],566:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -78368,7 +78475,7 @@ var goTo = exports.goTo = function goTo(x, y, zoom) {
   };
 };
 
-},{"../../lib/openseadragon-svg":539,"OpenseaDragon":2}],566:[function(require,module,exports){
+},{"../../lib/openseadragon-svg":539,"OpenseaDragon":2}],567:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -78461,7 +78568,7 @@ function annotationReducer() {
   }
 }
 
-},{"../actions/annotationActions":562}],567:[function(require,module,exports){
+},{"../actions/annotationActions":563}],568:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -78511,7 +78618,7 @@ function bookReducer() {
   }
 }
 
-},{"../actions/bookActions":563}],568:[function(require,module,exports){
+},{"../actions/bookActions":564}],569:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -78565,7 +78672,7 @@ function staticAnnotationReducer() {
   }
 }
 
-},{"../actions/bookActions":563,"../actions/staticAnnotationActions":564}],569:[function(require,module,exports){
+},{"../actions/bookActions":564,"../actions/staticAnnotationActions":565}],570:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -78681,7 +78788,7 @@ function viewerReducer() {
   }
 }
 
-},{"../actions/viewerActions":565}],570:[function(require,module,exports){
+},{"../actions/viewerActions":566}],571:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -78700,7 +78807,7 @@ switch (window.wellcome_application) {
 }
 
 }).call(this,require('_process'))
-},{"./bedlam":534,"./quilt":553,"_process":338,"babel-polyfill":3}],571:[function(require,module,exports){
+},{"./bedlam":534,"./quilt":553,"_process":338,"babel-polyfill":3}],572:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -78748,7 +78855,7 @@ var AnnotationHandler = function () {
 
 exports.default = AnnotationHandler;
 
-},{}],572:[function(require,module,exports){
+},{}],573:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -78931,7 +79038,7 @@ function createBook(url) {
   });
 }
 
-},{}],573:[function(require,module,exports){
+},{}],574:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -79007,7 +79114,7 @@ function createImageBook(pages) {
   return new ImageBook(pages);
 }
 
-},{}],574:[function(require,module,exports){
+},{}],575:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -79168,7 +79275,7 @@ var Librarian = function () {
 
 exports.default = Librarian;
 
-},{"../redux/actions/bookActions":563,"../redux/actions/staticAnnotationActions":564,"./Book":572,"./ImageBook":573,"lodash":335}],575:[function(require,module,exports){
+},{"../redux/actions/bookActions":564,"../redux/actions/staticAnnotationActions":565,"./Book":573,"./ImageBook":574,"lodash":335}],576:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -79202,10 +79309,18 @@ var TrackingSchema = function () {
       return Math.round(new Date().getTime() / 1000);
     }
   }, {
-    key: 'pageLoad',
-
+    key: 'sessionID',
+    value: function sessionID() {
+      if (TrackingSchema.session) {
+        return TrackingSchema.session;
+      }
+      return TrackingSchema.session = (Math.random() * 1e64).toString(36);
+    }
 
     /** @internal */
+
+  }, {
+    key: 'pageLoad',
     value: function pageLoad(index, format, institution, identifier, digicode, collection_code, uri) {
       TrackingSchema.id = identifier;
       return TrackingSchema.event('Pageload', 'Index: ' + index + ', Format: ' + format + ', Institution: ' + institution + ', Identifier: ' + identifier + ', Digicode: ' + digicode + ', Collection code: ' + collection_code + ', Uri: ' + uri + ', Time: ' + TrackingSchema.getTime());
@@ -79257,15 +79372,29 @@ var TrackingSchema = function () {
       return TrackingSchema.event('Itemload', 'Format: ' + format + ', Institution: ' + institution + ', Identifier: ' + identifier + ', Digicode: ' + digicode + ', Collection code: ' + collection_code + ', Uri: ' + uri);
     }
   }, {
+    key: 'uriEvent',
+    value: function uriEvent(event, uri, index) {
+      if (!index) {
+        console.warn('Invalid tracking');
+        return null;
+      }
+      return TrackingSchema.event(event, 'Index: ' + index + ', Uri: ' + uri + ', Session ID: ' + TrackingSchema.sessionID() + ', Time: ' + TrackingSchema.getTime());
+    }
+  }, {
     key: 'home',
     value: function home() {
       return TrackingSchema.event('Home', 'Identifier: ' + TrackingSchema.id + ', Time: ' + TrackingSchema.getTime());
     }
   }, {
+    key: 'setCategory',
+    value: function setCategory(category) {
+      TrackingSchema.category = category;
+    }
+  }, {
     key: 'event',
     value: function event(action, label) {
       return {
-        category: 'Bedlam Player',
+        category: TrackingSchema.category || 'Bedlam Player',
         action: action,
         label: label
       };
@@ -79277,7 +79406,7 @@ var TrackingSchema = function () {
 
 exports.default = TrackingSchema;
 
-},{}],576:[function(require,module,exports){
+},{}],577:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -79382,4 +79511,4 @@ var Wellcome = function () {
 
 exports.default = Wellcome;
 
-},{"../redux/actions/viewerActions":565,"./AnnotationHandler":571}]},{},[570]);
+},{"../redux/actions/viewerActions":566,"./AnnotationHandler":572}]},{},[571]);
