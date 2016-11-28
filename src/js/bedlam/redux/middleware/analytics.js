@@ -21,6 +21,7 @@ export const ga = (event) => {
   }
   if (!Store.isInit) {
     Store.isInit = true;
+    TrackingSchema.setCategory('Bedlam Player');
     ReactGA.initialize('UA-84672230-1');
   }
   return ReactGA.event(event);
