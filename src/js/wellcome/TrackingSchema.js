@@ -18,6 +18,15 @@ export default class TrackingSchema {
 
   static id;
   static coverPages;
+  static category;
+  static session;
+
+  static sessionID() {
+    if (TrackingSchema.session) {
+      return TrackingSchema.session;
+    }
+    return TrackingSchema.session = (Math.random() * 1e64).toString(36);
+  }
 
   /** @internal */
   static pageLoad(index, format, institution, identifier, digicode, collection_code, uri) {
@@ -61,13 +70,25 @@ export default class TrackingSchema {
     return TrackingSchema.event('Itemload', `Format: ${format}, Institution: ${institution}, Identifier: ${identifier}, Digicode: ${digicode}, Collection code: ${collection_code}, Uri: ${uri}`);
   }
 
+  static uriEvent(event, uri, index) {
+    if (!index) {
+      console.warn('Invalid tracking');
+      return null;
+    }
+    return TrackingSchema.event(event, `Index: ${index}, Uri: ${uri}, Session ID: ${TrackingSchema.sessionID()}, Time: ${TrackingSchema.getTime()}`)
+  }
+
   static home() {
     return TrackingSchema.event('Home', `Identifier: ${TrackingSchema.id}, Time: ${TrackingSchema.getTime()}`);
   }
 
+  static setCategory(category) {
+    TrackingSchema.category = category;
+  }
+
   static event(action, label) {
     return {
-      category: 'Bedlam Player',
+      category: TrackingSchema.category || 'Bedlam Player',
       action,
       label
     };
