@@ -13,13 +13,131 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "commentsOnly": true,
           "name": "Markdown"
         },
-        "sourcePath": "/Users/Stephen/Workspaces/annotation-viewer/README.md",
+        "sourcePath": "/Users/Stephen/Workspaces/github.com/wellcometrust/annotation-viewer/README.md",
         "projectPath": "README.md",
         "targetPath": "index",
         "pageTitle": "index",
-        "title": "index"
+        "firstHeader": {
+          "type": "heading",
+          "data": {
+            "level": 1,
+            "title": "Wellcome Quilt Prototype",
+            "slug": "wellcome-quilt-prototype",
+            "isFileHeader": true
+          },
+          "depth": 1,
+          "children": [
+            {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "High level overview",
+                "slug": "high-level-overview"
+              },
+              "depth": 2
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "Store",
+                "slug": "store"
+              },
+              "depth": 2
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "View",
+                "slug": "view"
+              },
+              "depth": 2
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "Viewer",
+                "slug": "viewer"
+              },
+              "depth": 2
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "Annotation Handler (name TBC)",
+                "slug": "annotation-handler-name-tbc"
+              },
+              "depth": 2,
+              "children": [
+                {
+                  "type": "heading",
+                  "data": {
+                    "level": 3,
+                    "title": "Based on Front end starter kit",
+                    "slug": "based-on-front-end-starter-kit"
+                  },
+                  "depth": 3
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Wellcome Quilt Prototype"
       },
-      "depth": 1
+      "depth": 1,
+      "outline": [
+        {
+          "type": "heading",
+          "data": {
+            "level": 2,
+            "title": "High level overview",
+            "slug": "high-level-overview"
+          },
+          "depth": 2
+        }, {
+          "type": "heading",
+          "data": {
+            "level": 2,
+            "title": "Store",
+            "slug": "store"
+          },
+          "depth": 2
+        }, {
+          "type": "heading",
+          "data": {
+            "level": 2,
+            "title": "View",
+            "slug": "view"
+          },
+          "depth": 2
+        }, {
+          "type": "heading",
+          "data": {
+            "level": 2,
+            "title": "Viewer",
+            "slug": "viewer"
+          },
+          "depth": 2
+        }, {
+          "type": "heading",
+          "data": {
+            "level": 2,
+            "title": "Annotation Handler (name TBC)",
+            "slug": "annotation-handler-name-tbc"
+          },
+          "depth": 2,
+          "children": [
+            {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "Based on Front end starter kit",
+                "slug": "based-on-front-end-starter-kit"
+              },
+              "depth": 3
+            }
+          ]
+        }
+      ]
     }, {
       "type": "file",
       "data": {
@@ -32,13 +150,14 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "foldPrefix": "^",
           "name": "JavaScript"
         },
-        "sourcePath": "/Users/Stephen/Workspaces/annotation-viewer/Gruntfile.js",
+        "sourcePath": "/Users/Stephen/Workspaces/github.com/wellcometrust/annotation-viewer/Gruntfile.js",
         "projectPath": "Gruntfile.js",
         "targetPath": "Gruntfile",
         "pageTitle": "Gruntfile",
         "title": "Gruntfile"
       },
-      "depth": 1
+      "depth": 1,
+      "outline": []
     }
   ];
 
