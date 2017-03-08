@@ -10,7 +10,7 @@ import createStore from './redux/createStore';
 import { journeyReady } from './redux/actions/journeyActions';
 
 const app = new Wellcome(
-    'https://accelerator.dlcs.io/dlcs/4/21/quilt/info.json',
+    'https://dlcs.io/iiif-img/4/21/quilt/info.json',
     OpenSeadragon({
       id: 'player',
       defaultZoomLevel: 0,
